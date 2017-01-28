@@ -1,0 +1,115 @@
+/*uas
+#365c9d
+205,219,232 = #cddbe8
+
+juneau
+#a9bb46
+233,239,213 =     dfd2dd
+
+Sitka
+#c89a36
+255,241,219 = fff1db
+
+Ketchikan:
+#793f61
+223,210,221 = dfd2dd*/
+
+.campus_dark {
+	color:#793f61;
+}
+
+.campus_light {
+	background-color:#dfd2dd;
+}
+
+h1, h3{
+
+}
+
+h2, h4{
+	color:#793f61;
+}
+
+nav .p7TMM10 ul ul a.trig_open {
+	background-image:none;
+	background-color:#793f61;
+}
+nav h2 {
+	color:#365c9d;
+}
+#col_1{
+	background-image: url(http://www.uas.alaska.edu/a_assets/images/campuses/ltnav-ket.png);
+	background-position:bottom center;
+	background-repeat:no-repeat;
+	background-size:100% auto;
+	padding-bottom:200px;
+}
+
+#col_1 nav header {
+	background-image:none;
+	display:block;
+	margin:0;
+	padding:0;
+
+}
+
+#col_1 nav header strong {
+	display: none;
+}
+
+#col_1 nav header p span{
+	position:relative;
+	top:-5px;
+}
+
+.nav-tabs li a {
+	background-color:#fff ;
+	background-image:-webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#dfd2dd ));
+	background-image:-webkit-linear-gradient(#ffffff, #dfd2dd );
+	background-image:-moz-linear-gradient(#ffffff, #dfd2dd );
+	background-image:-ms-linear-gradient(#ffffff, #dfd2dd );
+	background-image:-o-linear-gradient(#ffffff, #dfd2dd );
+	background-image:linear-gradient(#ffffff, #dfd2dd );
+	border-color:#793f61;
+	border-bottom-color:#ddd;
+}
+
+.nav-tabs li.active a {
+	background-image:none;
+}
+
+.accordion-heading .accordion-toggle {
+	background-color:#dfd2dd;
+	background-image:-webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#dfd2dd));
+	background-image:-webkit-linear-gradient(#ffffff, #dfd2dd);
+	background-image:-moz-linear-gradient(#ffffff, #dfd2dd);
+	background-image:-ms-linear-gradient(#ffffff, #dfd2dd);
+	background-image:-o-linear-gradient(#ffffff, #dfd2dd);
+	background-image:linear-gradient(#ffffff, #dfd2dd);
+}
+.form-actions {
+	background-color:#dfd2dd;
+}
+.well {
+	background-color:#dfd2dd;
+	background-image:-webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#dfd2dd));
+	background-image:-webkit-linear-gradient(#ffffff, #dfd2dd);
+	background-image:-moz-linear-gradient(#ffffff, #dfd2dd);
+	background-image:-ms-linear-gradient(#ffffff, #dfd2dd);
+	background-image:-o-linear-gradient(#ffffff, #dfd2dd);
+	background-image:linear-gradient(#ffffff, #dfd2dd);
+}
+
+.imageFloatRight, .imageFloatLeft {
+		background-color:#a9bb46
+}
+
+
+.calMonth {
+  	background-image:-webkit-gradient(linear, left top, left bottom, from(#a9bb46), to(#dfd2dd));
+	background-image:-webkit-linear-gradient(#a9bb46, #dfd2dd);
+	background-image:-moz-linear-gradient(#a9bb46, #dfd2dd);
+	background-image:-ms-linear-gradient(#a9bb46, #dfd2dd);
+	background-image:-o-linear-gradient(#a9bb46, #dfd2dd);
+	background-image:linear-gradient(#a9bb46, #dfd2dd);
+}

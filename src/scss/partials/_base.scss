@@ -1,0 +1,36 @@
+// @Author: Colin Osterhout <ctosterhout>
+// @Date:   2017-01-26T14:11:30-09:00
+// @Email:  ctosterhout@alaska.edu
+// @Project: BERT
+// @Last modified by:   ctosterhout
+// @Last modified time: 2017-01-27T06:33:18-09:00
+// @License: Released under MIT License. Copyright 2016 University of Alaska Southeast.  For more details, see https://opensource.org/licenses/MIT
+
+@import 'paths';
+@import 'modules/uas-palette';
+
+$color-chartreuse: rgb(0,142,132);
+$color-gray-blue: rgb(80, 114, 134);
+$color-near-white: #fefefe;
+$color-bright-yellow: #f5fa64;
+$color-navy-blue: #204788;
+$color-yellow-green: rgb(216,215,136);
+$color-gray-white: #e8e7f9;
+$color-blue-gray: rgb(80,106,134);
+$color-light-blue: rgb(0, 136, 204);
+$color-corn-flower: #e7fbc7;
+
+$screen-xs-min: 480px;
+$screen-xs-max: 767px;
+$screen-sm-min: 768px;
+$screen-sm-max: 979px;
+$screen-md-min: 980px;
+$screen-md-max: 1199px;
+$screen-lg-min: 1200px;
+
+$logo-text-only-reverse-svg: url($path_img_base + 'logo/uas-logo-text-only-reverse.svg');
+$logo-text-only-reverse-png: url($path_img_base + 'logo/uas-logo-text-only-reverse.png');
+$logo-reverse-svg: url($path_img_base + 'logo/uas-logo-reverse.svg');
+$logo-reverse-png: url($path_img_base + 'logo/uas-logo-reverse.png');
+
+@charset "UTF-8";

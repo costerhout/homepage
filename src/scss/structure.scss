@@ -1,0 +1,538 @@
+@import 'partials/base';
+
+html {
+       overflow-y: scroll;
+       /* Used to anchor the footer on the bottom of the viewport */
+       box-sizing: border-box;
+       height: 100%;
+}
+
+body {
+    margin: 0 auto;
+    /* Used to anchor the footer on the bottom of the viewport */
+    position: relative;
+    min-height: 100%;
+    /* Allow for the footer to be below the viewport at small screen sizes */
+    padding-bottom: 800px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+/*=header*/
+body > header {
+    background-image: none;
+    background: linear-gradient(to top, $color-uas-blue, $color-uas-blue 55%, $color-chartreuse);
+    background-color: $color-uas-blue;
+    padding-bottom: 0;
+}
+
+body > footer {
+    box-sizing: border-box;
+    background-color: $color-gray-blue;
+    background-image: none;
+    background-position: initial;
+    background-repeat: no-repeat;
+    color: $color-near-white;
+    display: block;
+    padding: 3em 4em;
+    margin: 0 auto;
+
+    /* Used to anchor the footer on the bottom of the viewport */
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-sizing: border-box;
+}
+
+footer h2 {
+    color: $color-bright-yellow;
+}
+
+footer a:link,
+footer a:visited,
+footer a:active,
+footer a:hover {
+    color: $color-corn-flower;
+    text-decoration: underline;
+}
+
+footer a:active,
+footer a:hover {
+    color: #a6bd72;
+}
+
+#main {
+    /*
+    background: none;
+    background-color: white;
+    */
+    background-color: white;
+    background-image:linear-gradient(#e3e3e3, #fff);
+    margin: 0 auto;
+    padding: 0;
+}
+
+#main div.container {
+    background-color: #FFF;
+    padding:0 3px;
+}
+
+#main-menu ul.nav {
+    width: 100%;
+}
+
+#main-menu .navbar-inner {
+    /* 1x1 transparent gif for older browsers, cough cough IE */
+    background-image:url(data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==);
+    background-color: transparent;
+    border: none;
+}
+
+#main-menu.navbar {
+    color: #fefefe;
+    box-shadow: none;
+    margin-bottom: 0;
+}
+
+#main-menu .open > .dropdown-menu {
+    border-top: 4px solid #a2c748;
+    border-radius: 0;
+}
+
+#main-menu .open > .dropdown-menu:before,
+#main-menu .open > .dropdown-menu:after {
+    content: none;
+}
+
+#main-menu .open > .dropdown-menu {
+    margin-top: 0;
+    top: 100%;
+}
+
+#main-menu .nav {
+    margin-left: -8px;
+    margin-bottom: 8px;
+}
+
+#main-menu .nav > li > a {
+    font-size: 1.2rem;
+}
+
+#main-menu .nav > li > a,
+#main-menu .nav > li > a:link,
+#main-menu .nav > li > a:visited,
+#main-menu .nav > li > a:hover,
+#main-menu .nav > li > a:active {
+    color: #fefefe;
+    text-shadow: none;
+    padding: 0 8px 8px;
+}
+
+#main-menu .nav > li:first-of-type > a {
+    margin-left: 0;
+}
+
+#main-menu .nav li.dropdown.open > .dropdown-toggle {
+    background-color: #036;
+}
+
+/*form in menu descriptor goes here*/
+#main-menu .dropdown-menu li.search {
+    margin: 0 1em;
+}
+
+#main-menu .dropdown-menu li.search form {
+    margin: 0;
+}
+
+#main-menu .nav > li > a::first-of-type {
+    margin-left: 0;
+}
+
+#main-menu .navbar-inner {
+    padding: 0;
+    min-height: initial;
+}
+
+#main-menu .nav > .dropdown:not(:first-of-type) > a {
+    border-left: 1px solid #fefefe;
+}
+
+#main-menu #cse-search-box {
+    margin: 0 1rem 0;
+    position: absolute;
+    right: 0;
+    bottom: 8px;
+}
+
+#main-menu #cse-search-box input,
+#main-menu #cse-search-box .input-prepend > .add-on {
+    /*border-color: #7b81ab;*/
+    border-color: rgb(116,167,58);
+    border-width: 2.5px;
+    color: #fefefe;
+    height: 1.1rem;
+    border-radius: 0;
+}
+
+#main-menu #cse-search-box .input-prepend > .add-on {
+    font-size: 1.1rem;
+    background-color: rgb(116,167,58);
+    text-shadow: none;
+}
+
+#main-menu #cse-search-box input {
+    color: #e8e7f9;
+    background-color: transparent;
+    width: 10em;
+}
+
+#main-menu .input-prepend {
+    margin-bottom: 0;
+}
+
+#logo-desktop {
+    cursor: pointer;
+    display: block;
+}
+
+#footerBoilerPlate h2 {
+    font-size: 1rem;
+}
+
+#footerBoilerPlate {
+    font-size: 80%;
+}
+
+.logo-text-only {
+    background-image: $logo-text-only-reverse-svg;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: contain;
+}
+
+.logo-whale-tail {
+    background-image: $logo-reverse-svg;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+.no-svg .logo-text-only {
+    background-image: $logo-text-only-reverse-png;
+}
+
+.no-svg .logo-whale-tail {
+    background-image: $logo-reverse-png;
+}
+
+.menu-descriptor {
+    font-size: 60%;
+    margin-bottom: 0.3em;
+}
+
+.list-icons > li {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.social-media-links .list-icons img {
+    max-height: 20px;
+}
+
+@media screen and (min-width: $screen-sm-min) {
+    body > header .navbar-search {
+        float: none;
+        margin: 0;
+        padding: 0;
+        margin-top: 25px;
+    }
+
+    /*header {
+        min-height: 100px;
+    }*/
+
+    #logo-desktop {
+        min-height: 116px;
+    }
+
+    #logo-desktop-text {
+        margin-top: 18px;
+        margin-bottom: 10px;
+        min-height: 46px;
+    }
+}
+
+@media screen and (min-width: $screen-md-min) {
+    #main div.container {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: $screen-sm-max) and (min-width: $screen-sm-min) {
+    #main-menu .nav > li > a {
+        font-size: 1rem;
+    }
+
+    .menu-descriptor {
+        display: none;
+    }
+}
+
+/*The icon for opening the secondary navigation*/
+div#mobileHeader {
+    display:none;
+    position:relative;
+}
+
+a#PanelControl {
+    position:static;
+    display:block;
+    margin:0;
+    font-size:inherit;
+    margin-top:3px;
+    z-index:1000;
+}
+
+#col_1{
+    background-color: #fff;
+    margin-left:0;
+    border:1 px solid #ccc;
+    border-top:none;
+    overflow:hidden;
+    position:relative;
+}
+.row-fluid #col_1 {
+    min-height:0!important;
+}
+
+#col_1 fieldset{
+    margin:15px 5px;
+    padding:5px;
+    border:1px solid #fff;
+    border-radius: 3px;
+}
+
+#col_3 .section{
+    padding:0 5px;
+}
+
+#col_3 .section ul{
+    list-style:none;
+}
+#col_3 .section ul,#col_3 .section li{
+    margin-left:5px;
+}
+#col_3 .section p{
+    padding-right:5px;
+}
+
+.container {
+    width: 100%;
+    max-width: 980px;
+}
+.container-fluid {
+    padding: 0;
+}
+
+/*=breadcrumb*/
+.breadcrumb {
+    background-color: transparent;
+    background-image: none;
+    border: none;
+    margin: 0;
+}
+
+.breadcrumb li.home {
+    font-size:20px;
+    display:block;
+    padding-bottom:5px;
+    font-family:"Times New Roman", Times, serif;
+    font-weight:bold;
+}
+
+.breadcrumb li.active {
+    font-weight:bold;
+    color:#666;
+    text-shadow:none;
+    padding-bottom:10px;
+    border-bottom: none;
+}
+
+.breadcrumb li.active h1.lead{
+    font-size:24px;
+    line-height: 20px;
+    border-bottom: none;
+    margin-bottom: 10px;
+}
+
+/* =CMS default classes ----------------------------------- */
+.boxed {
+    margin:0;
+    padding:5px;
+    text-align:justify;
+    border:thin solid #999999;
+}
+
+.red {
+    color: #F00;
+}
+
+a.external {
+    background-image:url(http://www.uas.alaska.edu/styles/images/icons/external.png);
+    background-position: right;
+    background-repeat:no-repeat;
+    padding-right:15px;
+}
+
+a.pdf {
+    background-image:url(http://www.uas.alaska.edu/styles/images/icons/pdf.gif);
+    background-position: right;
+    background-repeat:no-repeat;
+    padding-right:15px;
+}
+
+a.map {
+    background-image:url(http://www.uas.alaska.edu/styles/images/icons/compass.png);
+    background-position: right;
+    background-repeat:no-repeat;
+    padding-right:20px;
+}
+
+a.movie {
+    background-image:url(http://www.uas.alaska.edu/styles/images/icons/movie.gif);
+    background-position: right;
+    background-repeat:no-repeat;
+    padding-right:20px;
+}
+
+.floatRight {
+    float:right;
+    margin:15px 0 15px 15px;
+    }
+
+.floatLeft {
+    float:left;
+    margin:15px 15px 15px 0;
+}
+
+.imageFloatRight {
+    background-color:#ccc;
+    border:thin solid #e4e4e4;
+    padding:5px;
+    float:right;
+    margin:15px 0 15px 15px;
+    -moz-border-radius-topleft: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    border-radius: 5px;
+}
+
+.imageFloatLeft {
+    background-color:#ccc;
+    border:thin solid #e4e4e4;
+    padding:5px;
+    float:left;
+    margin:15px 15px 15px 0;
+    -moz-border-radius-topleft: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    border-radius: 5px;
+}
+
+.imageBorder {
+    border:thin solid #cccccc;
+    padding:5px;
+    margin:15px;
+}
+
+.boxedFloatRight {
+    float:right;
+    margin:0 0 15px 15px;
+    padding:5px;
+    text-align:justify;
+    border:thin solid #999999;
+}
+
+.boxedFloatLeft {
+    float:left;
+    margin:0 15px 15px 0px;
+    padding:5px;
+    text-align:justify;
+    border:thin solid #999999;
+}
+
+ul.listPlain, .listPlain li  {
+    list-style:none;
+    margin-left:0;
+}
+
+li.listPlain  {
+    list-style:none;
+}
+
+/* =CMS legacy classes ----------------------------------- */
+.clearit{
+    clear:both;
+}
+
+.contentby, #main .contentby, #main p.contentby {
+    text-align: right;
+    margin: 30px 10px 10px 0;
+}
+
+li.folder {
+    list-style-image:url(http://www.uas.alaska.edu/images/icons/folder.jpg);
+}
+li.page {
+    list-style-image:url(http://www.uas.alaska.edu/images/icons/page.jpg);
+}
+li.pdf {
+    list-style-image:url(http://www.uas.alaska.edu/images/icons/pdf.png);
+}
+li.word {
+    list-style-image:url(http://www.uas.alaska.edu/images/icons/word.png);
+}
+li.img {
+    list-style-image:url(http://www.uas.alaska.edu/images/icons/image.png);
+}
+li.link {
+    list-style-image:url(http://www.uas.alaska.edu/images/icons/link.gif);
+}
+li.excel {
+    list-style-image:url(http://www.uas.alaska.edu/images/icons/excel.gif);
+}
+li.flash {
+    list-style-image:url(http://www.uas.alaska.edu/images/icons/flash.gif);
+}
+li.movie {
+    list-style-image:url(http://www.uas.alaska.edu/styles/images/icons/movie.gif);
+}
+
+/* fixes ol numbers being cut off from left edge of content*/
+.tab-content > .tab-pane {
+    padding:0 10px;
+}
+/* bootsrap v 3.0 for 'jump to content' link */
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  border: 0;
+}

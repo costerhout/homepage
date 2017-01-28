@@ -1,0 +1,199 @@
+/**
+* @Author: Colin Osterhout <ctosterhout>
+* @Date:   2016-11-23T16:09:54-09:00
+* @Email:  ctosterhout@alaska.edu
+* @Project: BERT
+// @Last modified by:   ctosterhout
+// @Last modified time: 2017-01-27T11:33:42-09:00
+* @License: Released under MIT License. Copyright 2016 University of Alaska Southeast.  For more details, see https://opensource.org/licenses/MIT
+*/
+
+@import 'partials/base';
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+#main > div.container {
+    padding: 0;
+}
+
+#tagline {
+    /*font-family: Verdana, Geneva, sans-serif;*/
+    font-family: Oswald, sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: $color-light-blue;
+    font-size: 1rem;
+    line-height: 1.2;
+    padding-left: 1em;
+    text-align: center;
+    margin: 1em;
+}
+
+#tagline .site-label {
+    /*font-size: 110%;*/
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+#tagline a {
+    text-decoration: underline;
+}
+
+#tagline .bump-up {
+    padding-bottom: 5px;
+}
+
+#carousel-main {
+    color: #fefefe;
+    margin-bottom: initial;
+}
+
+#donateToUas {
+    padding: 10px;
+    border-top: 1px solid lightgray;
+    font-size: 90%;
+    color: #717171;
+}
+
+.carousel-control {
+    border-radius: 23px;
+    font-size: 20px;
+    font-weight: normal;
+    height: 30px;
+    left: 0px;
+    line-height: 25px;
+    margin-top: 0px;
+    opacity: 0.5;
+    position: relative;
+    text-align: center;
+    top: 52%;
+    width: 30px;
+}
+
+.carousel-controls {
+    margin-bottom: 3.5em;
+}
+
+.carousel-control.right {
+    left: auto;
+    right: 0px;
+}
+
+.carousel-inner .item div.caption{
+    overflow:auto;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    margin: 0;
+
+}
+
+.carousel-inner .item div.image{
+    margin-bottom:10px;
+    min-height:200px;
+}
+
+.carousel-inner .caption {
+    margin-top:20px;
+}
+
+.carousel {
+    line-height: 20px;
+}
+
+.green {
+    color: #8dca46;
+}
+
+.carousel-inner .item img {
+    width: 100%;
+}
+
+.carousel-title {
+    font-size: 2rem;
+    background-color: #521c25;
+    font-family: Oswald, sans-serif;
+    font-weight: 300;
+    padding: 15px;
+    line-height: 1.2;
+}
+
+
+.background-maroon {
+    background-color: #521c25;
+}
+
+.background-seagreen {
+    background-color: #1c5246;
+}
+
+.carousel-caption {
+    background-color: rgba($color-blue-gray, 0.8);
+    line-height: 1.4;
+}
+
+@media screen and (min-width: 480px) {
+    #tagline {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .carousel-title,
+    .carousel-caption
+    {
+        position: static;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .carousel-title {
+        font-size: 3rem;
+        position: absolute;
+        color: #fefefe;
+        font-family: Oswald, sans-serif;
+        font-weight: 300;
+    }
+
+    .bottom-left {
+        bottom: 2em;
+        left: 0;
+        padding-left: 1em;
+    }
+
+    .bottom-right {
+        bottom: 2em;
+        right: 0;
+        padding-right: 1em;
+    }
+
+    .top-left {
+        top: 1.5em;
+        left: 0;
+        padding-left: 1em;
+    }
+
+    .top-right {
+        top: 1.5em;
+        right: 0;
+        padding-right: 1em;
+    }
+}
+
+.social-media-links .list-icons img {
+    max-height: 20px;
+}
+
+#tab_calendar h2 {
+    font-size: 1.2rem;
+}
+
+.byline {
+    color: #525252;
+    font-weight: bold;
+}
+
+.newsbox article {
+    margin-top: 1.5rem;
+}

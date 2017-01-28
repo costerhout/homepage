@@ -1,0 +1,28 @@
+body, #main  {
+	background-color: #fff;
+	color:#000;
+}
+body > footer {
+	background-color: #333;
+	color:#fff;
+}
+
+body > footer  div.pull-right {
+	text-align:right;
+}
+
+/*=header*/
+body > header, body > .navbar, #col_1 {
+	display:none !important;
+}
+
+.breadcrumb li.active h1 {
+	display:block;
+	text-shadow:none!important;
+}
+
+.disappear-print {
+	display:none;
+}
+
+

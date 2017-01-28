@@ -1,0 +1,801 @@
+@import 'partials/base';
+@import "http://fonts.googleapis.com/css?family=Varela+Round";
+
+.well {
+    background-color: #fff;
+    background-image: linear-gradient(#ffffff, #cddbe8);
+}
+
+table.table-event-list th {
+    text-align: left;
+}
+
+label.hide {
+    display: none;
+    width: 0;
+    text-indent: -5000;
+}
+
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+    font-weight: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    text-transform: none;
+}
+
+h1, h2, h3 {
+    font-family: 'Varela Round', sans-serif;
+}
+
+h1 {
+    font-size: 26px;
+    line-height: 30px;
+    color: #333;
+}
+
+h2 {
+    font-size: 22px;
+    line-height: 30px;
+    color: #552e0f;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 19px;
+    line-height: 26px;
+    color: #222;
+    font-weight: 500;
+}
+
+h4 {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: bold;
+    color: #552e0f;
+    font-weight: 500;
+}
+
+h5 {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: normal;
+}
+
+h6 {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: normal;
+}
+
+.noticeBox ul, .noticeBox li {
+    list-style: none;
+    margin-left: 0;
+}
+
+#main div.container {
+    position: relative;
+}
+
+.contentby {
+    clear: right;
+    padding-top: 20px;
+}
+
+#banner, #banner h1 {
+    background-color: #365c9d!important;
+    color: #fff!important;
+}
+
+nav header {
+    background-color: transparent;
+    background-image: none;
+}
+
+#col_1 {
+    background-image: url(http://www.uas.alaska.edu/styles/images/campuses/ltnav-regional.jpg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    padding-bottom: 200px;
+}
+
+#col_1 nav {
+    background-color: #fff;
+}
+
+#col_1 nav header {
+    /*
+    background-color: #365c9d;
+    background-image: none;
+    */
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+#col_1 nav header strong {
+    display: none;
+}
+
+#col_1 nav header p {
+    display: block;
+    margin: 20px 0 0 30px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    color: #365c9d;
+    min-height: 30px;
+}
+
+#col_1 nav header p span {
+    position: relative;
+    top: -5px;
+}
+
+#col_1 nav section {
+    margin-top: 15px;
+    margin-right: 10px;
+    padding-left: 10px;
+}
+
+#col_1 nav section header {
+    background-color: transparent;
+    background-image: none;
+    color: #365c9d;
+}
+
+.carousel {
+    line-height: 1.4;
+}
+
+.nav-tabs li a {
+    background-color: #fff;
+    font-family: 'Varela Round', sans-serif;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#cddbe8));
+    background-image: -webkit-linear-gradient(#ffffff, #cddbe8);
+    background-image: -moz-linear-gradient(#ffffff, #cddbe8);
+    background-image: -ms-linear-gradient(#ffffff, #cddbe8);
+    background-image: -o-linear-gradient(#ffffff, #cddbe8);
+    background-image: linear-gradient(#ffffff, #cddbe8);
+    border-color: #365c9d;
+    border-bottom-color: #ddd;
+}
+
+.nav-tabs li.active a {
+    background-image: none;
+}
+
+.accordion-heading .accordion-toggle {
+    display: block;
+    padding: 8px 15px;
+    background-color: #cddbe8;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#cddbe8));
+    background-image: -webkit-linear-gradient(#ffffff, #cddbe8);
+    background-image: -moz-linear-gradient(#ffffff, #cddbe8);
+    background-image: -ms-linear-gradient(#ffffff, #cddbe8);
+    background-image: -o-linear-gradient(#ffffff, #cddbe8);
+    background-image: linear-gradient(#ffffff, #cddbe8);
+}
+
+.form-actions {
+    background-color: #cddbe8;
+    border: none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.well {
+    background-color: #cddbe8;
+    background-color: #f5f5f5;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#cddbe8));
+    background-image: -webkit-linear-gradient(#ffffff, #cddbe8);
+    background-image: -moz-linear-gradient(#ffffff, #cddbe8);
+    background-image: -ms-linear-gradient(#ffffff, #cddbe8);
+    background-image: -o-linear-gradient(#ffffff, #cddbe8);
+    background-image: linear-gradient(#ffffff, #cddbe8);
+    border: none;
+}
+
+.imageFloatRight, .imageFloatLeft {
+    background-color: #365c9d
+}
+
+.calendarBanner {
+    background-color: #fff;
+    float: right;
+    margin: 0;
+    width: 80px;
+    text-align: center;
+    margin-left: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    -moz-box-shadow: 2px 2px 2px grey;
+    -webkit-box-shadow: 2px 2px 2px grey;
+    box-shadow: 2px 2px 2px grey;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.calMonth {
+    border: medium none;
+    color: #333;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#365c9d), to(#cddbe8));
+    background-image: -webkit-linear-gradient(#365c9d, #cddbe8);
+    background-image: -moz-linear-gradient(#365c9d, #cddbe8);
+    background-image: -ms-linear-gradient(#365c9d, #cddbe8);
+    background-image: -o-linear-gradient(#365c9d, #cddbe8);
+    background-image: linear-gradient(#365c9d, #cddbe8);
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    display: block;
+    text-align: center;
+    z-index: 1;
+    padding: 7px 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.calDay {
+    border: medium none;
+    color: #000000;
+    padding-top: 13px;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 0.12em;
+    text-align: center;
+    z-index: 2;
+    display: block;
+    padding: 13px 5px 16px 5px;
+    border-top: 1px solid #999;
+}
+
+nav #form1 input.search-query {
+    width: 185px;
+}
+
+.btn-group-vertical {
+    display: inline-block;
+    *display: inline;
+    /* IE7 inline-block hack */
+    *zoom: 1;
+}
+
+.btn-group-vertical .btn {
+    display: block;
+    float: none;
+    width: 100%;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.btn-group-vertical .btn+.btn {
+    margin-top: -1px;
+    margin-left: 0;
+}
+
+.btn-group-vertical .btn:first-child {
+    -webkit-border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0;
+}
+
+.btn-group-vertical .btn:last-child {
+    -webkit-border-radius: 0 0 4px 4px;
+    -moz-border-radius: 0 0 4px 4px;
+    border-radius: 0 0 4px 4px;
+}
+
+.btn-group-vertical .btn-large:first-child {
+    -webkit-border-radius: 6px 6px 0 0;
+    -moz-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+}
+
+.btn-group-vertical .btn-large:last-child {
+    -webkit-border-radius: 0 0 6px 6px;
+    -moz-border-radius: 0 0 6px 6px;
+    border-radius: 0 0 6px 6px;
+}
+
+
+/* Sidenav for Docs
+-------------------------------------------------- */
+
+.bs-docs-sidenav {
+    width: 88px;
+    margin: 30px 0 0;
+    padding: 0;
+    background-color: #fff;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, .065);
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, .065);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .065);
+}
+
+.bs-docs-sidenav>li>a {
+    display: block;
+    *width: 190px;
+    margin: 0 0 -1px;
+    padding: 8px 14px;
+    border: 1px solid #e5e5e5;
+}
+
+.bs-docs-sidenav>li:first-child>a {
+    -webkit-border-radius: 6px 6px 0 0;
+    -moz-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+}
+
+.bs-docs-sidenav>li:last-child>a {
+    -webkit-border-radius: 0 0 6px 6px;
+    -moz-border-radius: 0 0 6px 6px;
+    border-radius: 0 0 6px 6px;
+}
+
+.bs-docs-sidenav>.active>a {
+    position: relative;
+    z-index: 2;
+    padding: 9px 15px;
+    border: 0;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .15);
+    -webkit-box-shadow: inset 1px 0 0 rgba(0, 0, 0, .1), inset -1px 0 0 rgba(0, 0, 0, .1);
+    -moz-box-shadow: inset 1px 0 0 rgba(0, 0, 0, .1), inset -1px 0 0 rgba(0, 0, 0, .1);
+    box-shadow: inset 1px 0 0 rgba(0, 0, 0, .1), inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+
+
+/* Chevrons */
+
+.bs-docs-sidenav .icon-chevron-right {
+    float: right;
+    margin-top: 2px;
+    margin-right: -6px;
+    opacity: .25;
+}
+
+.bs-docs-sidenav>li>a:hover {
+    background-color: #f5f5f5;
+}
+
+.bs-docs-sidenav a:hover .icon-chevron-right {
+    opacity: .5;
+}
+
+.bs-docs-sidenav .active .icon-chevron-right, .bs-docs-sidenav .active a:hover .icon-chevron-right {
+    background-image: url(../img/glyphicons-halflings-white.png);
+    opacity: 1;
+}
+
+.bs-docs-sidenav.affix {
+    top: 40px;
+}
+
+.bs-docs-sidenav.affix-bottom {
+    position: absolute;
+    top: auto;
+    bottom: 270px;
+}
+
+table h3 {
+    padding: inherit;
+    margin: 0;
+}
+
+.btn-smallest {
+    padding: 0px 5px;
+    font-size: 10px;
+}
+
+
+/*.breadcrumb h1{
+    font-size:18px!important;
+    line-height:20px;
+    display:inline;
+}*/
+
+.btn-navbar .icon-bar {
+    display: block;
+    width: 18px;
+    height: 2px;
+    background-color: #f5f5f5;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+}
+
+#socialIcons {
+    padding: 10px 0;
+}
+
+.wavey {
+    background-image: url(http://www.uas.alaska.edu/styles/images/backgrounds/wispy_1600x132.jpg);
+    background-repeat: repeat-x;
+    background-position: top left;
+    background-size: cover;
+    color: #fff;
+}
+
+div.striped>div:nth-child(odd) {
+    background-color: #F9F9F9;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+div.striped>div:nth-child(even) {
+    background-color: #fff;
+}
+
+.calendar_row, .faq_row {
+    padding: 12px;
+}
+
+.vevent div.summary a:hover {
+    csor: pointer;
+}
+
+.vcard p.title {
+    white-space: pre-wrap;
+}
+
+.vcard img.photo {
+    margin: 0 auto 15px auto;
+    -moz-border-radius-topleft: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+}
+
+.modal {
+    -webkit-overflow-scrolling: touch;
+}
+
+tr.tableHeadings {
+    color: #FFF;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    background-image: url("http://www.uas.alaska.edu/a_assets/style/img/glyphicons-halflings.png");
+}
+
+
+/* White icons with optional class, or on hover/active states of certain elements */
+
+.icon-white, .nav-pills>.active>a>[class^="icon-"], .nav-pills>.active>a>[class*=" icon-"], .nav-list>.active>a>[class^="icon-"], .nav-list>.active>a>[class*=" icon-"], .navbar-inverse .nav>.active>a>[class^="icon-"], .navbar-inverse .nav>.active>a>[class*=" icon-"], .dropdown-menu>li>a:hover>[class^="icon-"], .dropdown-menu>li>a:hover>[class*=" icon-"], .dropdown-menu>.active>a>[class^="icon-"], .dropdown-menu>.active>a>[class*=" icon-"], .dropdown-submenu:hover>a>[class^="icon-"], .dropdown-submenu:hover>a>[class*=" icon-"] {
+    background-image: url("http://www.uas.alaska.edu/a_assets/style/img/glyphicons-halflings-white.png");
+}
+
+
+/* reset z - original 1050 - PMM is 3010 so this mus be more */
+
+.modal {
+    z-index: 3020;
+}
+
+
+/* These classes added for ease of setting text spacing around images as needed */
+
+img.pull-right {
+    margin-left: 10px;
+}
+
+img.pull-left {
+    margin-right: 10px;
+}
+
+
+/* table classes for more colorful rows */
+
+table.green-rows tr:nth-child(even) {
+    background: #B2F7B4;
+}
+
+table.purple-rows tr:nth-child(even) {
+    background: #9378E3;
+}
+
+table.blue-rows tr:nth-child(even) {
+    background: #A19EFF;
+}
+
+.table caption {
+    font-size: x-large;
+    line-height: 2;
+    font-weight: bold;
+}
+
+
+/* Provide captions for images */
+
+.thumbnail.with-caption {
+    display: inline-block;
+    background: #f5f5f5;
+}
+
+.thumbnail.with-caption p {
+    margin: 0;
+    text-align: left;
+    padding-top: 0.5em;
+    font-size: small;
+}
+
+.thumbnail.with-caption small:before {
+    content: '\2014 \00A0';
+}
+
+.thumbnail.with-caption small {
+    width: 100%;
+    text-align: right;
+    display: inline-block;
+    color: #999;
+}
+
+
+/* Center a block - NOTE - this gets supersceded in Bootstrap 3x by class center-block */
+
+.align-center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+/* Center a block both horizontally and vertically */
+
+.align-middle {
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+/* MyUAS Ribbon */
+
+#uaso-trunk a img {
+    border: 1px solid #fff;
+}
+
+#uaso-trunk a img:hover {
+    border: 1px solid #e3e3e3;
+    text-decoration: none;
+}
+
+.trunk {
+    width: 380px;
+    height: 340px;
+    padding: 20px 5px;
+}
+
+div.trunk-row {
+    width: 360px;
+    margin: 0 auto;
+    padding: 0;
+    clear: left;
+}
+
+div.myuas-icon {
+    width: 110px;
+    float: left;
+    display: inline-block;
+    min-width: 110px;
+    max-width: 110px;
+    padding: 5px;
+    text-align: center;
+    margin: 0;
+}
+
+div.myuas-icon img {
+    width: 70px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+div.myuas-icon a:hover {
+    background-color: transparent;
+    border: 1px solid #999;
+    text-decoration: none;
+}
+
+ul.dropdown-menu div.trunk div.myuas-icon>a:visited, ul.dropdown-menu div.trunk div.myuas-icon>a:active, ul.dropdown-menu div.trunk div.myuas-icon>a:link {
+    font-size: 10px;
+    padding: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid #fff;
+    display: block;
+    clear: none;
+    font-weight: normal;
+    line-height: normal;
+    color: #333;
+    white-space: nowrap;
+}
+
+ul.dropdown-menu div.trunk div.myuas-icon>a:hover {
+    border: 1px solid #999;
+}
+
+#myuas li.myCoursesTerm {
+    font-weight: bold;
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+
+/* Added to properly size popover ul li in Firefox */
+
+ul.unstyled>li {
+    line-height: 2em;
+}
+
+
+/* Image overlay effect */
+
+.video-thumbnail {
+    position: relative;
+    width: 100%;
+    line-height: 0;
+}
+
+.video-thumbnail img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.overlay {
+    width: 20%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hanging-indent {
+    padding-left: 1em;
+    text-indent: -1em;
+}
+
+dl:not(.dl-horizontal)>dt {
+    margin-top: 1em;
+    line-height: 1.2;
+}
+
+.leading {
+    padding: 20px;
+    font-family: serif;
+    font-size: 2rem;
+    line-height: 120%;
+}
+
+.list-largeheader {
+    font-size: 1.5rem;
+    margin-left: 3rem;
+}
+
+.list-largeheader>li {
+    margin-top: 2rem;
+}
+
+.list-largeheader>li>p {
+    font-size: initial;
+}
+
+.list-normal>li {
+    font-size: 1rem;
+}
+
+.list-spacious>li {
+    margin: 2rem 0;
+}
+
+p.subtitle {
+    font-size: 125%;
+    font-weight: bold;
+}
+
+.left-sidebar-social-icons {
+    position: absolute;
+    bottom: 1em;
+    right: 0;
+    text-align: right;
+}
+
+.left-sidebar-social-icons p {
+    margin: 0.5em 0;
+}
+
+
+/*
+Modify form look and feel a bit for fieldsets and nested fieldsets (radio
+groups and checkboxes)
+*/
+
+fieldset fieldset>legend {
+    font-size: 14px;
+}
+
+fieldset {
+    margin-bottom: 1em;
+}
+
+
+/* Make the textarea elements wider by default and responsive in width */
+
+textarea {
+    height: 10em;
+    width: 70%;
+}
+
+
+/* Additional styling for button groups */
+
+.btn-group {
+    margin: 10px 0;
+}
+
+.btn-group>a.btn {
+    padding: 3px 15px;
+}
+
+
+/* Sidebar address widget definitions */
+
+#col_1 .sidebar-address {
+    padding-left: 1em;
+}
+
+.help-block {
+    font-size: 80%;
+    margin-top: 0.5em;
+    font-style: italic;
+}
+
+.form-dynamic-controls .fa-plus {
+    color: green;
+}
+
+.form-dynamic-controls .fa-minus {
+    color: red;
+}
+
+.form-dynamic-controls {
+    display: inline-block;
+    float: left;
+    padding: 1em;
+}
+
+.form-dynamic-controls::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.form-multiple-group {
+    border: 1px dotted gray;
+    margin: 1em 0;
+    padding: 0.5em 1em;
+}
+
+.personnel-list-dept-address {
+    border-bottom: 1px solid LightGray;
+    padding: 1em 0;
+}

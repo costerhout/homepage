@@ -1,0 +1,197 @@
+@import 'partials/base';
+
+/* APB - UAS Online Notices for MyUAS toolbar */
+
+
+/* MyUAS UASO nav bar */
+#uaso {
+    position: relative;
+}
+
+div#uaso,
+div#uaso-m,
+#uaso.navbar-inverse .navbar-inner,
+#uaso-m.navbar-inverse .navbar-inner {
+    background-image: none;
+    background-repeat: no-repeat;
+    background-color: $color-navy-blue;
+    border: none;
+    min-height: 25px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.navbar .brand {
+   font-size: 12px;
+}
+
+div#myuas-m .nav > li > a,
+div#myuas-m ul.dropdown-menu li > a {
+    color: #fff !important;
+    font-weight: normal;
+}
+
+div#myuas > ul.nav {
+    margin-left: 30px;
+}
+
+
+#myuas .nav > li > a,
+#myuas .nav > li > a:link,
+#myuas .nav > li > a:visited,
+#myuas .nav > li > a:hover,
+#myuas .nav > li > a:active
+{
+    color: $color-yellow-green;
+}
+
+#APBs {
+    background-color: $color-navy-blue;
+    padding: 0;
+    margin: 0;
+    min-height: 0;
+}
+
+.APB_items {
+    padding: 10px;
+}
+
+.APB_item {
+    color: black;
+    clear: both;
+    max-height: 120px;
+    overflow: auto;
+    background-color: white;
+    margin: 2px auto;
+    text-align: left;
+    border: 1px #e3e3e3 solid;
+    border-radius: 5px;
+}
+
+.APB_item div {
+    padding: 0px 5px;
+}
+
+.APB_followup {
+    font-weight: bold;
+    font-style: italic;
+    text-align: right;
+    float: right;
+    position: relative;
+    top: -7px;
+    left: -15px;
+    background-color: white;
+}
+
+.APB_followup a {
+    text-decoration: none;
+    padding: 0 5px;
+}
+
+.APB_followup a:hover {
+    background-color: gainsboro
+}
+
+.APB_title {
+    background: gainsboro;
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+.APB_description {
+    margin-top: 8px;
+    font-size: 12px;
+}
+
+.APB_date {
+    border-top: 1px dotted white;
+    font-size: 8pt;
+}
+
+.APB_groups {
+    float: right;
+}
+
+#APB_guid_preview {
+    border: 3px dashed white;
+}
+
+a.APB_close:link,
+a.APB_close:visited,
+a.APB_close:active {
+    float: right;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 3px 8px;
+    margin: 5px 10px 0 0;
+    border: 1px solid #999;
+    background-color: #069;
+    color: #fff;
+    -moz-box-shadow: 5px 5px 5px grey;
+    -webkit-box-shadow: 5px 5px 5px grey;
+    box-shadow: 5px 5px 5px grey;
+    -moz-border-radius-topleft: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    border-radius: 5px;
+}
+
+a.APB_close:hover {
+    -moz-box-shadow: 0px 0px 0px grey;
+    -webkit-box-shadow: 0px 0px 0px grey;
+    box-shadow: 0px 0px 0px grey;
+    background-color: #FFF;
+    color: #069;
+}
+
+.APB_cat_priority_1 div.APB_item {
+    border: 10px solid red;
+}
+
+.APB_cat_priority_2 div.APB_item {
+    border: 5px solid cornflowerblue;
+}
+
+@media screen and (min-width: 480px) {
+    .navbar .brand {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 980px) {
+    div#uaso, .navbar-inverse .navbar-inner, div#uaso>.container {
+        min-height: 25px;
+        font-size: .9em;
+        line-height: 12px;
+    }
+    #myuas ul.nav>li>a {
+        padding: 3px 15px 4px 15px;
+    }
+    div#myuas>ul.nav {
+        margin-left: 0px;
+    }
+
+    .navbar .brand {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 980px) {
+    div#uaso, .navbar-inverse .navbar-inner, div#uaso>.container {
+        min-height: 25px;
+        font-size: .95em;
+        line-height: 12px;
+    }
+    #myuas ul.nav>li>a {
+        padding: 3px 15px 4px 15px;
+    }
+
+    .navbar .brand {
+        font-size: 15px;
+    }
+}

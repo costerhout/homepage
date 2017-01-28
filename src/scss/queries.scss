@@ -1,0 +1,909 @@
+@import 'partials/base';
+@media screen and (max-width: $screen-xs-min) {
+    .container {
+        width: 100%;
+        max-width: 480px;
+    }
+
+    #main div.container {
+        padding: 0;
+    }
+
+    #col_1,
+    body > header,
+    footer {
+        margin: 0 -20px;
+    }
+
+    #logo {
+        float: left;
+        width: 80px;
+        margin: 3px;
+        padding: 0;
+    }
+
+    a.brand img {
+        margin: 3px 0 0 3px;
+    }
+
+    .navbar-search .search-query {
+        padding: 0 4px;
+        font-size: 12px;
+        line-height: 0.6;
+        width: 150px;
+    }
+
+    body > header .span9 {
+        width: 100%;
+        display: inherit;
+    }
+
+    #brand,
+    #brand a:active,
+    #brand a:hover,
+    #brand a:link,
+    #brand a:visited {
+        display: none;
+    }
+
+    body > header .navbar-form,
+    body > header .navbar-search {
+        float: right;
+        margin: 3px 10px 0 0;
+        padding: 3px;
+    }
+
+    body > header .navbar-search input {
+        width: 45px;
+    }
+
+    li.search input {
+        width: 150px;
+    }
+
+    #p7PMM_1 {
+        margin: 10px 0 0;
+    }
+
+    #p7PMMh04 {
+        margin: 10px 0 0;
+    }
+
+    .p7PMMh04 a {
+        padding: 0;
+    }
+
+    .p7PMMh04 a strong {
+        font-size: 12px;
+        padding: 0.6em 0.8em;
+    }
+
+    .p7PMMh04 a small {
+        font-size: 0;
+        display: none;
+    }
+
+    .p7PMMh04 ul ul {
+        background-color: #ccc;
+        background-image: linear-gradient(#fff, #ccc);
+    }
+
+    .p7PMMh04 ul li.explore ul {
+        left: -.4em;
+        min-width: 480px;
+        width: 100%;
+        display: block;
+    }
+
+    .p7PMMh04 ul li.attend ul {
+        left: -70px;
+        min-width: 480px;
+        width: 100%;
+        display: block;
+    }
+
+    .p7PMMh04 ul li.plan ul {
+        left: -130px;
+        min-width: 480px;
+        width: 100%;
+        display: block;
+    }
+
+    .p7PMMh04 ul li.study ul {
+        left: -175px;
+        min-width: 480px;
+        width: 100%;
+        display: block;
+    }
+
+    .p7PMMh04 ul li.succeed ul {
+        left: -230px;
+        min-width: 480px;
+        width: 100%;
+        display: block;
+    }
+
+    .p7PMMh04 ul ul a,
+    .p7PMMh04 ul ul form {
+        padding-left: 60px;
+    }
+
+    #banner {
+        display: none;
+    }
+
+    div#mobileHeader {
+        display: inherit;
+    }
+
+    #PanelControl {
+        display: inline;
+    }
+
+    div.panelClosed {
+        display: none;
+    }
+
+    div.panelOpen {
+        display: block;
+        width: 100%;
+    }
+
+    footer .pull-left,
+    footer .pull-right {
+        float: none;
+        text-align: center;
+    }
+
+    #col_1 {
+        padding: 0;
+        margin: 0;
+        box-shadow: none;
+        background-size: 0 0;
+    }
+
+    #col_1 div#Panel,
+    #col_1 nav {
+        padding: 0 0 20px;
+        margin: 0;
+    }
+
+    #col_1 nav,
+    #col_1 nav #p7TMM {
+        background-color: #ccc;
+        background-image: linear-gradient(#fff, #ccc);
+        margin-left: 0;
+    }
+
+    #col_1 nav button {}
+
+    #col_1 nav header {
+        display: none;
+    }
+
+    #col_2 {
+        width: 100%;
+    }
+
+    #col_3 {
+        width: 100%;
+    }
+
+    div.section {
+        width: 100%;
+        margin: 0;
+        float: left;
+    }
+
+    #col_3 .section {
+        border: 1px solid #e3e3e3;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .breadcrumb {
+        padding: 0;
+        margin: 0 20px 0 0;
+    }
+
+    .breadcrumb .divider,
+    .breadcrumb li.active {
+        padding-bottom: 0;
+    }
+
+    .breadcrumb li.active h1.lead {
+        margin-bottom: 5px;
+        letter-spacing: 0.1em;
+        font-size: 1.2em;
+    }
+
+    .contentby {
+        position: relative;
+        right: 0;
+        bottom: 0;
+    }
+
+    .disappear {
+        display: none;
+    }
+
+    .appear {
+        display: inherit;
+    }
+
+    #months div.btn-group a.btn {
+        font-size: 12px;
+        padding: 4px 10px;
+    }
+
+    .nav-tabs > li > a {
+        padding-right: 8px;
+        padding-left: 8px;
+        margin-right: 0;
+    }
+
+    #content .nav-tabs > li {
+        display: block;
+        float: none;
+    }
+
+    #content .nav-tabs > .active > a,
+    #content .nav-tabs > .active > a:hover,
+    #content ul.nav-tabs {
+        border-bottom-color: #DDD;
+    }
+}
+@media screen and (min-width: $screen-xs-min) and (max-width: $screen-xs-max) {
+    body {
+        padding-bottom: 730px;
+    }
+    .container {
+        width: 100%;
+        max-width: 776px;
+    }
+
+    #main div.container {
+        padding: 0;
+    }
+
+    #col_1,
+    body > header,
+    footer {
+        margin: 0 -20px;
+    }
+
+    #logo {
+        display: inline;
+        float: left;
+        width: 130px;
+        margin: 3px;
+    }
+
+    a.brand img {
+        margin: 3px 0 0 3px;
+    }
+
+    .navbar-search .search-query {
+        padding: 4px;
+        font-size: 12px;
+        line-height: 1;
+        width: 150px;
+    }
+
+    body > header .span9 {
+        width: 100%;
+        display: inherit;
+    }
+
+    #brand,
+    #brand a:active,
+    #brand a:hover,
+    #brand a:link,
+    #brand a:visited {
+        display: none;
+    }
+
+    body > header .navbar-form,
+    body > header .navbar-search {
+        float: right;
+        margin: 9px 0;
+        padding: 9px 15px;
+    }
+
+    body > header .navbar-search input {
+        width: 100px;
+    }
+
+    #p7PMM_1 {
+        margin: 20px 0 0;
+    }
+
+    .p7PMMh04 a {
+        padding: 0 1em;
+    }
+
+    .p7PMMh04 a strong {
+        font-size: 18px;
+    }
+
+    .p7PMMh04 a small {
+        font-size: 0;
+        display: none;
+    }
+
+    .p7PMMh04 ul ul {
+        background-color: #ccc;
+        background-image: linear-gradient(#fff, #ccc);
+    }
+
+    .p7PMMh04 ul li.explore ul {
+        left: -.4em;
+        min-width: 780px;
+        width: 100%;
+        display: block;
+    }
+
+    .p7PMMh04 ul li.attend ul {
+        left: -100px;
+        min-width: 780px;
+        width: 100%;
+        display: block;
+    }
+
+    .p7PMMh04 ul li.plan ul {
+        left: -190px;
+        min-width: 780px;
+        width: 100%;
+        display: block;
+    }
+
+    .p7PMMh04 ul li.study ul {
+        left: -260px;
+        min-width: 780px;
+        width: 100%;
+        display: block;
+    }
+
+    .p7PMMh04 ul li.succeed ul {
+        left: -340px;
+        min-width: 780px;
+        width: 100%;
+        display: block;
+    }
+
+    .p7PMMh04 ul ul a,
+    .p7PMMh04 ul ul form {
+        padding-left: 60px;
+    }
+
+    #banner {
+        display: none;
+    }
+
+    div#mobileHeader {
+        display: inherit;
+    }
+
+    #PanelControl {
+        display: inherit;
+    }
+
+    div.panelClosed {
+        display: none;
+    }
+
+    div.panelOpen {
+        display: block;
+    }
+
+    footer .pull-left {
+        float: left;
+        text-align: left;
+    }
+
+    footer .pull-left,
+    footer .pull-right {
+        float: none;
+        text-align: center;
+    }
+
+    #col_1 {
+        padding: 0 0 20px;
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        background-size: 0 0;
+    }
+
+    #col_1 nav,
+    #col_1 nav #p7TMM {
+        background-color: #ccc;
+        background-image: linear-gradient(#fff, #ccc);
+        margin-left: 30px;
+    }
+
+    #col_1 nav header {
+        display: none;
+    }
+
+    #col_2 {
+        width: 100%;
+    }
+
+    #col_3 {
+        width: 100%;
+    }
+
+    div.section {
+        width: 30%;
+        margin: 0.5%;
+        float: left;
+    }
+
+    #col_3 .section {
+        border: 1px solid #e3e3e3;
+        border-radius: 5px 5px 0 0;
+    }
+
+    div.section {
+        width: 100%;
+        margin: 0 5px 10px 0;
+        float: left;
+    }
+
+    #col_3 .section {
+        border: none;
+    }
+
+    .breadcrumb {
+        padding: 0;
+        margin: 0 20px 0 0;
+    }
+
+    .contentby {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+
+    .disappear {
+        display: none;
+    }
+
+    .appear {
+        display: inherit;
+    }
+
+    #months div.btn-group a.btn {
+        font-size: 14px;
+        padding: 4px 12px;
+    }
+
+    .nav-tabs > li > a {
+        padding-right: 12px;
+        padding-left: 12px;
+        margin-right: 2px;
+    }
+}
+@media screen and (min-width: $screen-sm-min) and (max-width: $screen-md-min) {
+    body {
+        padding-bottom: 400px;
+    }
+
+    .container {
+        width: 100%;
+        max-width: $screen-md-min;
+    }
+
+    #col_1,
+    body > header,
+    footer {
+        margin: 0;
+    }
+
+    body > header .navbar-form,
+    body > header .navbar-search {
+        float: right;
+        margin: 9px 0;
+        padding: 9px 15px;
+    }
+
+    body > header .navbar-search input {
+        width: 100px;
+    }
+
+    #logo {
+        display: inherit;
+        width: 22.9282%;
+    }
+
+    a.brand img {
+        margin: 15px 0 0 20px;
+    }
+
+    .navbar-search .search-query {
+        padding: 4px 14px;
+        font-size: 13px;
+        line-height: 1;
+    }
+
+    body > header .span9 {
+        width: 100%;
+        display: inherit;
+    }
+
+    #brand,
+    #brand a:active,
+    #brand a:hover,
+    #brand a:link,
+    #brand a:visited {
+        margin: 10px 0 0 3px;
+        font-size: 26px;
+        line-height: 30px;
+        display: inherit;
+        float: left;
+        letter-spacing: inherit;
+        text-transform: none;
+    }
+
+    #p7PMM_1 {
+        margin: 0;
+    }
+
+    .p7PMMh04 a {
+        padding: 0 0.8em;
+    }
+
+    .p7PMMh04 a strong {
+        font-size: 18px;
+    }
+
+    .p7PMMh04 a small {
+        font-size: 0;
+        display: none;
+    }
+
+    .p7PMMh04 ul ul {
+        background-color: #fff;
+        background-image: none;
+    }
+
+    .p7PMMh04 ul li.explore ul {
+        left: -2px;
+    }
+
+    .p7PMMh04 ul li.attend ul {
+        left: -2px;
+    }
+
+    .p7PMMh04 ul li.plan ul {
+        left: -2px;
+    }
+
+    .p7PMMh04 ul li.study ul {
+        left: -2px;
+    }
+
+    .p7PMMh04 ul li.succeed ul {
+        left: -2px;
+    }
+
+    .p7PMMh04 ul ul a {
+        padding-left: 15px;
+    }
+
+    .p7PMMh04 ul ul form {
+        padding-left: 5px;
+    }
+
+    #banner {
+        display: block;
+    }
+
+    div#mobileHeader {
+        display: none;
+    }
+
+    #PanelControl {
+        display: none;
+    }
+
+    div.panelClosed {
+        display: block;
+    }
+
+    div.panelOpen {
+        display: block;
+    }
+
+    footer .pull-left {
+        float: left;
+        text-align: left;
+    }
+
+    footer .pull-right {
+        float: right;
+        text-align: right;
+    }
+
+    #col_1 {
+        padding-bottom: 250px;
+        /*    -moz-box-shadow: 3px 3px 3px grey;
+    -webkit-box-shadow: 3px 3px 3px grey;
+    box-shadow: 3px 3px 3px grey;*/
+        background-size: 100% auto;
+        border-left: 1px solid #ccc;
+        border-right: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+    }
+
+    #col_1 nav header {
+        display: block;
+    }
+
+    #col_1 nav,
+    #col_1 nav #p7TMM {
+        background-color: transparent;
+        margin-left: inherit;
+        background-image: none;
+    }
+
+    #col_2 {
+        width: 65.7459%;
+    }
+
+    #col_3 {
+        width: 31.4917%;
+    }
+
+    .breadcrumb {
+        padding: 12px 0 0;
+        margin: 0;
+    }
+
+    div.section {
+        width: 100%;
+        margin: 0 5px 10px 0;
+        float: left;
+    }
+
+    #col_3 .section {
+        border: none;
+    }
+
+    .breadcrumb {
+        padding: 0;
+        margin: 0;
+    }
+
+    .contentby {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+
+    .disappear {
+        display: inherit;
+    }
+
+    .appear {
+        display: none;
+    }
+
+    #months div.btn-group a.btn {
+        font-size: 14px;
+        padding: 4px 12px;
+    }
+
+    .nav-tabs > li > a {
+        padding-right: 12px;
+        padding-left: 12px;
+        margin-right: 2px;
+    }
+}
+@media screen and (min-width: $screen-md-min) {
+    body {
+        padding-bottom: 400px;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 1140px;
+    }
+
+    #col_1,
+    body > header,
+    footer {
+        margin: 0;
+    }
+
+    body > header .navbar-form,
+    body > header .navbar-search {
+        float: right;
+        margin: 9px 0;
+        padding: 9px 15px;
+    }
+
+    body > header .navbar-search input {
+        width: 120px;
+    }
+
+    #logo {
+        display: inherit;
+        width: 22.9282%;
+    }
+
+    a.brand img {
+        margin: 15px 0 0 20px;
+    }
+
+    .navbar-search .search-query {
+        padding: 4px 14px;
+        font-size: 13px;
+        line-height: 1;
+    }
+
+    body > header .span9 {
+        width: 74.3094%;
+    }
+
+    #brand,
+    #brand a:active,
+    #brand a:hover,
+    #brand a:link,
+    #brand a:visited {
+        margin: 8px 0 0;
+        font-size: 24px;
+        letter-spacing: 0.1em;
+        line-height: 36px;
+        display: inherit;
+        float: left;
+    }
+
+    #p7PMM_1 {
+        margin: 40px 0 0 -.5em;
+    }
+
+    .p7PMMh04 a {
+        padding: 0 1.8em 2px 0.5em;
+    }
+
+    .p7PMMh04 a strong {
+        font-size: 18px;
+    }
+
+    .p7PMMh04 a small {
+        font-size: 0.85em;
+        display: block;
+    }
+
+    .p7PMMh04 ul ul {
+        background-color: #fff;
+        background-image: none;
+    }
+
+    .p7PMMh04 ul li.explore ul {
+        left: -2px;
+    }
+
+    .p7PMMh04 ul li.attend ul {
+        left: -2px;
+    }
+
+    .p7PMMh04 ul li.plan ul {
+        left: -2px;
+    }
+
+    .p7PMMh04 ul li.study ul {
+        left: -2px;
+    }
+
+    .p7PMMh04 ul li.succeed ul {
+        left: -2px;
+    }
+
+    .p7PMMh04 ul ul a {
+        padding-left: 15px;
+    }
+
+    .p7PMMh04 ul ul form {
+        padding-left: 5px;
+    }
+
+    #banner {
+        display: block;
+    }
+
+    div#mobileHeader {
+        display: none;
+    }
+
+    #PanelControl {
+        display: none;
+    }
+
+    div.panelClosed {
+        display: block;
+    }
+
+    div.panelOpen {
+        display: block;
+    }
+
+    footer .pull-left {
+        float: left;
+        text-align: left;
+    }
+
+    footer .pull-right {
+        float: right;
+        text-align: right;
+    }
+
+    #col_1 {
+        padding-bottom: 250px;
+        background-size: 100% auto;
+        border-left: 1px solid #ccc;
+        border-right: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+    }
+
+    #col_1 nav header {
+        display: block;
+    }
+
+    #col_1 nav,
+    #col_1 nav #p7TMM {
+        background-color: transparent;
+        margin-left: inherit;
+        background-image: none;
+    }
+
+    #col_2 {
+        width: 65.812%;
+    }
+
+    #col_3 {
+        width: 31.6239%;
+    }
+
+    div.section {
+        width: 100%;
+        margin: 0 5px 10px 0;
+        float: left;
+    }
+
+    #col_3 .section {
+        border: none;
+    }
+
+    .breadcrumb,
+    .breadcrumb ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    .contentby {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+
+    .disappear {
+        display: inherit;
+    }
+
+    .appear {
+        display: none;
+    }
+
+    #months div.btn-group a.btn {
+        font-size: 14px;
+        padding: 4px 12px;
+    }
+
+    .nav-tabs > li > a {
+        padding-right: 12px;
+        padding-left: 12px;
+        margin-right: 2px;
+    }
+}

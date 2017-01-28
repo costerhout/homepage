@@ -1,0 +1,390 @@
+/*uas
+#365c9d
+205,219,232 = #cddbe8
+
+juneau
+#004763
+233,239,213 =     e9efd5
+
+Sitka
+#c89a36
+255,241,219 = fff1db
+===============
+Gold
+#ffcc66
+
+Bright
+Orange
+#df7707
+
+Burnt Sienna
+#8a2f02
+
+Dark Blue
+#254d89
+
+Bright Blue
+#0088cc
+
+Light Blue
+#e3f4fc
+
+=============
+
+Ketchikan:
+#793f61
+223,210,221 = dfd2dd
+*/
+
+
+@import "http://fonts.googleapis.com/css?family=Varela+Round";
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css";
+
+.campus_dark {
+    color: #004763;
+}
+.campus_light {
+	background-color: #c1d2d9;
+}
+h2, h4 {
+	color: #004763;
+}
+nav .p7TMM10 ul ul a.trig_open {
+	background-image: none;
+	background-color: #df7707;
+}
+nav h2 {
+	color: #365c9d;
+}
+#col_1 {
+	background-image: none;
+}
+#col_1 nav {
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#c1d2d9));
+	background-image: -webkit-linear-gradient(#ffffff, #c1d2d9);
+	background-image: -moz-linear-gradient(#ffffff, #c1d2d9);
+	background-image: -ms-linear-gradient(#ffffff, #c1d2d9);
+	background-image: -o-linear-gradient(#ffffff, #c1d2d9);
+	background-image: linear-gradient(#ffffff, #c1d2d9);
+}
+#col_1 nav header {
+	background-image: none;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+#col_1 nav header strong {
+	display: none;
+}
+
+.nav-tabs li a {
+	background-color: #fff;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#c1d2d9 ));
+	background-image: -webkit-linear-gradient(#ffffff, #c1d2d9 );
+	background-image: -moz-linear-gradient(#ffffff, #c1d2d9 );
+	background-image: -ms-linear-gradient(#ffffff, #c1d2d9 );
+	background-image: -o-linear-gradient(#ffffff, #c1d2d9 );
+	background-image: linear-gradient(#ffffff, #c1d2d9 );
+	border-color: #df7707;
+	border-bottom-color: #ddd;
+}
+.accordion-heading .accordion-toggle {
+	background-color: #c1d2d9;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#c1d2d9));
+	background-image: -webkit-linear-gradient(#ffffff, #c1d2d9);
+	background-image: -moz-linear-gradient(#ffffff, #c1d2d9);
+	background-image: -ms-linear-gradient(#ffffff, #c1d2d9);
+	background-image: -o-linear-gradient(#ffffff, #c1d2d9);
+	background-image: linear-gradient(#ffffff, #c1d2d9);
+}
+.form-actions {
+	background-color: #c1d2d9;
+}
+.well {
+	background-color: #c1d2d9;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#c1d2d9));
+	background-image: -webkit-linear-gradient(#ffffff, #c1d2d9);
+	background-image: -moz-linear-gradient(#ffffff, #c1d2d9);
+	background-image: -ms-linear-gradient(#ffffff, #c1d2d9);
+	background-image: -o-linear-gradient(#ffffff, #c1d2d9);
+	background-image: linear-gradient(#ffffff, #c1d2d9);
+	border: none;
+}
+#main {
+	background-color: #fff;
+}
+.imageFloatRight, .imageFloatLeft {
+	background-color: #df7707
+}
+.calMonth {
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#df7707), to(#ffcc66));
+	background-image: -webkit-linear-gradient(#df7707, #ffcc66);
+	background-image: -moz-linear-gradient(#df7707, #ffcc66);
+	background-image: -ms-linear-gradient(#df7707, #ffcc66);
+	background-image: -o-linear-gradient(#df7707, #ffcc66);
+	background-image: linear-gradient(#df7707, #ffcc66);
+}
+.btn-success {
+	background-color: #B85C01;
+	background-image: linear-gradient(to bottom, #F48207, #CC6600);
+	background-repeat: repeat-x;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	color: #FFFFFF;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.btn-success:hover, .btn-success:active, .btn-success.active, .btn-success.disabled, .btn-success[disabled] {
+	background-color: #CC6600;
+	color: #FFFFFF;
+}
+.nav-tabs li.active a {
+	background-image: none;
+}
+.nav-tabs > .active > a, .nav-tabs > .active > a:hover {
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	background-color: #FFFFFF;
+	border-color: #DDDDDD #DDDDDD transparent;
+	border-image: none;
+	border-style: solid;
+	border-width: 1px;
+	color: #555555;
+	cursor: default;
+	font-family: 'Varela Round', sans-serif;
+}
+.nav-tabs > li > a {
+	margin-right: 2px;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+.nav-tabs li a {
+	background-color: #FFFFFF;
+	background-image: linear-gradient(#FFFFFF, #FFCC66);
+	border-color: #FFCC66 #FFCC66 #DDDDDD;
+}
+.nav-tabs > li > a {
+	border: 1px solid #FFCC66;
+	border-radius: 4px 4px 0 0;
+	color: #8A2F02;
+	font-family: 'Varela Round', sans-serif;
+	line-height: 20px;
+	padding-bottom: 8px;
+	padding-top: 8px;
+}
+h1, h2, h3, h4 {
+	font-family: 'Varela Round', sans-serif;
+}
+h1 {
+	font-size: 30px;
+	color: #000000;
+	font-weight: 500;
+	line-height: 36px;
+}
+h2 {
+	color: #8A2F02;
+	font-size: 22px;
+	font-weight: 500;
+	line-height: 30px;
+}
+h3 {
+	color: #cc6600;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 26px;
+}
+h4 {
+	color: #333333;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 22px;
+}
+h5 {
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 16px;
+}
+h6 {
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 14px;
+}
+.breadcrumb li.active h1.lead, .breadcrumb li.active {
+	float: none;
+	display: block;
+	clear: left;
+	font-weight: 400;
+}
+#main #col_1 {
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+	border: none !important;
+}
+div.well .gold, div.gold, .gold {
+	background-color: #ffcc66 !important;
+	background-image: none !important;
+}
+.callout {
+	padding: 5px;
+}
+.callout img {
+	width: 90%;
+	margin: 10px;
+}
+.callout p {
+	padding: 2px 15px;
+	text-align: left;
+	color: #395260;
+	font-family: 'Varela Round', sans-serif;/*  font-size:16px;
+    letter-spacing:.15em;*/
+}
+.callout .lead, div.sa .lead {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	margin-bottom: 10px;
+}
+ul.email-sa {
+	list-style-image: url('http://www.uas.alaska.edu/a_assets/images/arrows/right-blue.png');
+}
+div.sa {
+	background-image: none;
+	background-color: #ebeced;
+}
+div.sa-vcard {
+	font-size: 12px;
+}
+/* style for index pages*/
+
+.well {
+	padding: 5px;
+	background-image: none;
+	background-color: #ebeced;
+}
+div.sa div#address {
+	padding: 5px 15px;
+}
+div.well .gold, div.orange, .orange {
+	background-color: #df7707 !important;
+	background-image: none !important;
+	color: #fff;
+	font-size: 16px;
+	line-height: 20px;
+	font-family: 'Varela Round', sans-serif;
+}
+.gold {
+	background-color: #ffcc66 !important;
+}
+/*
+.gold a {
+	color:#fff;
+}
+*/
+a:link.btn-gold, a:visited.btn-gold, a:active.btn-gold, a:hover.btn-gold {
+	background-color: #ffcc66;
+	background-image: none;
+	color: #8a2f02;
+	padding: 6px 8px;
+	text-shadow: none;
+	font-family: 'Varela Round', sans-serif;
+}
+a:hover.btn-gold {
+	text-decoration: underline;
+}
+#banner-sitka {
+	background-color: #df7707;
+	color: #fff;
+}
+#banner-sitka-main {
+/*  background-position:top;
+  background-size: contain;
+  background-repeat:no-repeat;
+  height:100%;
+  min-height:300px;*/
+}
+#banner-sitka-sidebar {
+	padding: 2%;
+	background-color: #df7707;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 22px;
+	letter-spacing: .2px;
+}
+#banner-sitka-sidebar .btn.btn-gold {
+	margin-top: 10px;
+	font-weight: bold;
+	padding: 8px 3%;
+}
+ @media screen and (max-width: 480px) {
+/*#banner-sitka-main {
+  min-height:180px;
+}
+#banner-sitka-sidebar{
+	font-size:18px;
+	letter-spacing: .2px;
+}*/
+}
+@media all and (min-width:768px) {
+/*#banner-sitka-main {
+  min-height:330px;
+}
+#banner-sitka-sidebar{
+padding: 5px 10px;
+}
+*/
+#banner-sitka {
+	position: relative;
+	overflow: hidden;
+}
+#banner-sitka-sidebar {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 28%;
+	height: 92%;
+	font-size: 14px;
+	line-height: 18px;
+}
+#banner-sitka-sidebar .btn.btn-gold {
+	font-weight: normal;
+}
+}
+ @media all and (min-width:980px) {
+/*#banner-sitka-main {
+  min-height:330px;
+}*/
+#banner-sitka-sidebar {
+	font-size: 18px;
+	font-weight: normal;
+	letter-spacing: .53px;
+	line-height: 25px;
+}
+#banner-sitka-sidebar .btn.btn-gold {
+	margin-top: 20px;
+	font-weight: bold;
+}
+}
+ @media all and (min-width:1010px) {
+/*#banner-sitka-main {
+  min-height:300px;
+}*/
+}
+div#sidebar {
+	margin-top: 15px;
+	padding: 5px 0 5px 15px;
+}
+ul.sa_ul {
+	list-style-image: url('http://www.uas.alaska.edu/a_assets/images/arrows/right-orange.png');
+}
+ul.sa_ul a, p.sa_ul a {
+	color: #8a2f02;
+}
+ul.sa_ul li {
+	padding: 5px 0;
+	margin: 5px 0;
+}
+
+.housing-table img {
+    max-height: 200px;
+}
