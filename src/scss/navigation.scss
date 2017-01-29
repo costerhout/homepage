@@ -1,5 +1,4 @@
 /* TOP LEVEL MENU */
-
 .p7PMMh04 ul {
     margin: 0;
     padding: 0;
@@ -10,7 +9,7 @@
     float: left;
     border-bottom: none;
     margin: 0;
-    padding:0;
+    padding: 0;
 }
 /*Top Level Links*/
 .p7PMMh04 a {
@@ -18,10 +17,10 @@
     display: block;
     text-decoration: none;
     color: #fff;
-    font-weight:normal;
+    font-weight: normal;
     clear: both;
     line-height: 18px;
-    padding: 0px 1em;
+    padding: 0 1em;
     white-space: nowrap;
     border: 1px solid transparent;
     border-right: 1px dotted #e3e3e3;
@@ -31,12 +30,14 @@
     font-size: 18px;
     font-weight: normal;
     display: block;
-    padding-bottom:2px;
+    padding-bottom: 2px;
 }
+
 .p7PMMh04 a small {
     display: block;
-    font-size: .85em;
+    font-size: 0.85em;
 }
+
 .p7PMMh04 a:hover {
     color: #fff;
     background-color: #036;
@@ -49,19 +50,20 @@ Syntax for special classes programatically assigned to first and last links and 
 See user guide for more information
 */
 .p7PMMh04 ul a.pmmfirst {
-/*  padding: 0px 1em 0 .2em;*/
+    /*  padding: 0px 1em 0 .2em;*/
 }
+
 .p7PMMh04 ul a.pmmlast {
     border-right: none;
 }
+
 .p7PMMh04 ul a.pmmlast:hover {
     border-right: 1px solid #e3e3e3;
 }
-.p7PMMh04 ul li.pmmfirst {
 
-}
-.p7PMMh04 ul li.pmmlast {
-}
+.p7PMMh04 ul li.pmmfirst {}
+
+.p7PMMh04 ul li.pmmlast {}
 /*First Sub Level*/
 .p7PMMh04 ul ul {
     position: absolute;
@@ -70,27 +72,22 @@ See user guide for more information
     z-index: 3000;
     float: left;
     min-width: 160px;
-    padding: 4px 0 10px 0;
-    margin:2px 0 0 0;
+    padding: 4px 0 10px;
+    margin: 2px 0 0;
     list-style: none;
     background-color: #ffffff;
-    background-image:none;
+    background-image: none;
     border-color: #ccc;
     border-color: rgba(0, 0, 0, 0.2);
     border-style: solid;
     border-width: 1px;
-    -webkit-border-radius: 0 0 5px 5px;
-    -moz-border-radius: 0 0 5px 5px;
     border-radius: 0 0 5px 5px;
-    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    -webkit-background-clip: padding-box;
-    -moz-background-clip: padding;
     background-clip: padding-box;
- *border-right-width: 2px;
- *border-bottom-width: 2px;
+    *border-right-width: 2px;
+    *border-bottom-width: 2px;
 }
+
 .p7PMMh04 ul ul li {
     float: none;
     background-image: none;
@@ -98,6 +95,7 @@ See user guide for more information
     padding: 0;
     margin: 0;
 }
+
 .p7PMMh04 ul ul a {
     margin: 0;
     display: block;
@@ -111,18 +109,20 @@ See user guide for more information
     line-height: 18px;
     padding: 3px 15px;
     white-space: nowrap;
-    border-right:none;
+    border-right: none;
 }
+
 .p7PMMh04 ul ul a.pdf {
     background-position: left;
 }
 
 .p7PMMh04 ul ul a:hover {
-    color: #FFF ;
-    background-color: #069 ;
+    color: #FFF;
+    background-color: #069;
 }
+
 .p7PMMh04 ul ul a.external {
-    background-image: url(http://www.uas.alaska.edu/styles/images/icons/external_wide.png);
+    background-image: url("http://www.uas.alaska.edu/styles/images/icons/external_wide.png");
     background-position: right;
     background-repeat: no-repeat;
 }
@@ -131,12 +131,13 @@ See user guide for more information
     padding: 5px;
     margin: 0;
 }
+
 .p7PMMh04 li.search form {
     margin: 0 0 0 10px;
 }
 
-.p7PMMh04 li.search form input{
-    display:block;
+.p7PMMh04 li.search form input {
+    display: block;
 }
 
 .p7PMMh04 .divider {
@@ -153,23 +154,25 @@ The Open state relates to trigger items when their child menus are showing
 Selectors appended with _left Automatically change arrow position and orientation
 if sub levels are set to fly out to the left
 */
-
 /*Sub Level*/
-.p7PMMh04 ul a.trig_closed, .p7PMMh04 ul a.trig_closed_left {
+.p7PMMh04 ul a.trig_closed,
+.p7PMMh04 ul a.trig_closed_left {}
+
+.p7PMMh04 ul a.trig_closed_up {}
+
+.p7PMMh04 ul a.trig_open,
+.p7PMMh04 ul a.trig_open_up {
+    color: #fff;
+    background-color: #036;
 }
-.p7PMMh04 ul a.trig_closed_up {
-}
-.p7PMMh04 ul a.trig_open, .p7PMMh04 ul a.trig_open_up {
-    color: #fff ;
-    background-color: #036 ;
-}
-.p7PMMh04 ul ul a.trig_closed {
-}
-.p7PMMh04 ul ul a.trig_closed_left {
-}
+
+.p7PMMh04 ul ul a.trig_closed {}
+
+.p7PMMh04 ul ul a.trig_closed_left {}
+
 .p7PMMh04 ul ul a.trig_open {
-    color: #FFF ;
-    background-color: #424242 ;
+    color: #FFF;
+    background-color: #424242;
 }
 /*
 SPECIAL IMAGE-BASED RULES
@@ -177,6 +180,7 @@ SPECIAL IMAGE-BASED RULES
 .p7PMMh04 img {
     border: 0;
 }
+
 .p7PMMh04 .p7PMM_img {
     padding: 0;
     border: 0;
@@ -199,170 +203,178 @@ The following rules enable your menu to work even when javascript is disabled in
 .p7PMMh04.p7PMMnoscript {
     position: relative;
 }
+
 .p7PMMh04.p7PMMnoscript ul div {
     position: absolute;
     display: block;
     left: -9999px;
     top: 98%;
 }
+
 .p7PMMh04.p7PMMnoscript ul ul div {
     left: -9999px;
-    top: 0px;
+    top: 0;
 }
+
 .p7PMMh04.p7PMMnoscript li:hover div {
     display: block;
     left: auto;
 }
-.p7PMMh04.p7PMMnoscript li:hover ul div, .p7PMMh04.p7PMMnoscript li:hover ul ul div,
-.p7PMMh04.p7PMMnoscript li:hover ul ul ul div, .p7PMMh04.p7PMMnoscript li:hover ul ul ul ul div,
+
+.p7PMMh04.p7PMMnoscript li:hover ul div,
+.p7PMMh04.p7PMMnoscript li:hover ul ul div,
+.p7PMMh04.p7PMMnoscript li:hover ul ul ul div,
+.p7PMMh04.p7PMMnoscript li:hover ul ul ul ul div,
 .p7PMMh04.p7PMMnoscript li:hover ul ul ul ul ul div {
     left: -9999px;
 }
-.p7PMMh04.p7PMMnoscript li li:hover div, .p7PMMh04.p7PMMnoscript li li li:hover div,
-.p7PMMh04.p7PMMnoscript li li li li:hover div, .p7PMMh04.p7PMMnoscript li li li li li:hover div,
-.p7PMMh04.p7PMMnoscript li li li li li li:hover div {
+
+.p7PMMh04.p7PMMnoscript li li li li li li:hover div,
+.p7PMMh04.p7PMMnoscript li li li li li:hover div,
+.p7PMMh04.p7PMMnoscript li li li li:hover div,
+.p7PMMh04.p7PMMnoscript li li li:hover div,
+.p7PMMh04.p7PMMnoscript li li:hover div {
     left: 190px;
     top: 1em;
 }
-
 /*= left nav Tree Menu*/
-
 div.p7TMM10 {
     font-size: inherit;
     font-family: Arial, Helvetica, sans-serif;
     zoom: 1;
-    margin:0;
-    padding:0 6px;
+    margin: 0;
+    padding: 0 6px;
 }
+
 .p7TMM10 div {
     zoom: 1;
 }
+
 .p7TMM10 ul {
-    margin:1px 0 0 0;
+    margin: 1px 0 0;
     padding: 0;
 }
+
 .p7TMM10 ul div {
     /*padding-left: 4px;*/
 }
-.p7TMM10 ul ul {
 
-}
+.p7TMM10 ul ul {}
+
 .p7TMM10 ul li {
     list-style-type: none;
     margin: 0;
 }
 
-
 .p7TMM10 ul ul li {
     padding-left: 15px;
 }
+
+.p7TMM10 ul a:active,
 .p7TMM10 ul a:link,
-.p7TMM10 ul a:visited,
-.p7TMM10 ul a:active {
+.p7TMM10 ul a:visited {
     color: #365c9d;
     display: block;
     padding: 3px 8px 3px 24px;
     text-decoration: none;
     zoom: 1;
     outline: 0;
-    font-weight:normal;
+    font-weight: normal;
 }
 
+.p7TMM10 ul li a:active,
 .p7TMM10 ul li a:link,
-.p7TMM10 ul li a:visited,
-.p7TMM10 ul li a:active {
-    font-size:inherit;
+.p7TMM10 ul li a:visited {
+    font-size: inherit;
 }
 
+.p7TMM10 ul li div a:active,
 .p7TMM10 ul li div a:link,
-.p7TMM10 ul li  div a:visited,
-.p7TMM10 ul li  div a:active {
-    font-size:inherit;
-    font-weight:normal;
+.p7TMM10 ul li div a:visited {
+    font-size: inherit;
+    font-weight: normal;
 }
-
 
 #p7TMM_1 ul ul ul {
-    background-color:#f0f5f9;
--webkit-border-radius: 5px 5px 5px 5px;
-border-radius: 5px 5px 5px 5px;
+    background-color: #f0f5f9;
+    border-radius: 5px 5px 5px 5px;
 }
 
-
-.p7TMM10 ul a:hover, .p7TMM10 ul a:focus, .p7TMM10 ul a:active {
+.p7TMM10 ul a:active,
+.p7TMM10 ul a:focus,
+.p7TMM10 ul a:hover {
     color: #08C;
     text-decoration: underline;
 }
-.p7TMM10 ul ul a {
 
-}
+.p7TMM10 ul ul a {}
+
 .p7TMM10 ul > li a.current_mark {
-    font-weight:normal;
-    color:#000;
-    border:none;
-
-background-color:#365c9d;
--moz-border-radius: 5px 5px  5px  5px;
-    -webkit-border-radius: 5px 5px  5px  5px;
-    border-radius:  5px 5px  5px  5px;
+    font-weight: normal;
+    color: #000;
+    border: none;
+    background-color: #365c9d;
+    border-radius: 5px 5px 5px 5px;
     color: #fff !important;
 }
+
 .p7TMM10 ul ul div ul li a.current_mark {
-    -moz-border-radius: 5px 5px  5px  5px;
-    -webkit-border-radius: 5px 5px  5px  5px;
-    border-radius:  5px 5px  5px  5px;
+    border-radius: 5px 5px 5px 5px;
 }
+
 .p7TMM10 a.trig_closed {
-    background-image: url(http://www.uas.alaska.edu/a_assets/images/arrows/tmm_east_blue.png);
+    background-image: url("http://www.uas.alaska.edu/a_assets/images/arrows/tmm_east_blue.png");
     background-repeat: no-repeat;
     background-position: left 8px;
-    padding: 3px 8px 3px 24px!important;
-    font-weight:normal;
-}
-.p7TMM10 a.trig_open {
-    padding: 3px 8px 3px 24px!important;
+    padding: 3px 8px 3px 24px !important;
     font-weight: normal;
+}
 
+.p7TMM10 a.trig_open {
+    padding: 3px 8px 3px 24px !important;
+    font-weight: normal;
     text-decoration: none;
-    font-weight:bold!important;
-    -moz-border-radius: 5px 5px  5px  5px;
-    -webkit-border-radius: 5px 5px  5px  5px;
-    border-radius:  5px 5px  5px  5px;
-    background-color:#365c9d;
+    font-weight: bold!important;
+    border-radius: 5px 5px 5px 5px;
+    background-color: #365c9d;
     color: #fff !important;
-    background-image: url(http://www.uas.alaska.edu/styles/p7tmm/img/tmm_south_white.gif);
+    background-image: url("http://www.uas.alaska.edu/styles/p7tmm/img/tmm_south_white.gif");
     background-repeat: no-repeat;
     background-position: left 8px;
 }
 
 .p7TMMtoggle {
-    display:none;
+    display: none;
 }
+
 .p7TMM10_toggle_all {
-    margin: 0 0 12px 0;
+    margin: 0 0 12px;
 }
+
 .p7TMM10_toggle_all a {
     color: #e3e3e3;
     font-variant: small-caps;
     outline: 0;
 }
-.p7TMM10_toggle_all a:hover, .p7TMM10_toggle_all a:focus, .p7TMM10_toggle_all a:active {
+
+.p7TMM10_toggle_all a:active,
+.p7TMM10_toggle_all a:focus,
+.p7TMM10_toggle_all a:hover {
     color: #000;
     text-decoration: underline;
 }
-
 /*=leftnav Top Level Links*/
 nav {
-    margin: 0 0 20px 0;
+    margin: 0 0 20px;
     padding: 0;
-    border:none;
+    border: none;
 }
 
 nav h1 {
     background-color: transparent;
     color: #333;
-    padding:10px;
-    text-align:left;
+    padding: 10px;
+    text-align: left;
     margin: 0;
     font-size: 20px;
     line-height: 24px;
@@ -370,19 +382,19 @@ nav h1 {
 
 nav h1 small {
     font-size: 14px;
-    margin:10px 0;
+    margin: 10px 0;
     padding: 0;
     line-height: 14px;
     color: #666;
-    display:block;
+    display: block;
 }
 
 nav h2 {
     background-color: transparent;
     color: #666;
-    padding:0;
-    text-align:left;
-    margin:0;
+    padding: 0;
+    text-align: left;
+    margin: 0;
     font-size: 16px;
     line-height: 20px;
 }

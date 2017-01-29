@@ -8,9 +8,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Colin Osterhout (webmaster@uas.alaska.edu)",
-  "license": "ISC",
+  "author": "Colin Osterhout (ctosterhout@alaska.edu) based on original work by John French (jhfrench@alaska.edu)",
+  "license": "LicenseRef-LICENSE",
+  "url": "http://github.com/costerhout/homepage/",
   "copyright": "(c) 2017 University of Alaska Southeast",
+  "browserslist": [
+      "> 1%",
+      "last 3 versions",
+      "IE 9"
+  ],
   "devDependencies": {
     "autoprefixer": "^6.0.3",
     "connect-ssi": "^1.1.0",
@@ -22,5 +28,10 @@
     "grunt-contrib-watch": "^0.6.1",
     "grunt-postcss": "^0.6.0",
     "pixrem": "^3.0.0"
+},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/costerhout/homepage.git",
+    "license": "http://github.com/costerhout/homepage/LICENSE"
   }
 }

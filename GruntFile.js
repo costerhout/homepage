@@ -2,7 +2,7 @@
  * Grunt Module
  */
 
-module.exports = function(grunt) {
+module.exports = function (grunt) {
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
         /**
@@ -39,29 +39,37 @@ module.exports = function(grunt) {
                 livereload: 8021
             }
         },
+        clean: {
+            dev: {
+                src: [ '<%= project.dev %>/*' ]
+            },
+            dist: {
+                src: [ '<%= project.dist %>/*' ]
+            }
+        },
         /**
         * Project banner
         */
         banner: '/*!\n' +
-            ' * <%= pkg.name %>\n' +
-            ' * <%= pkg.title %>\n' +
+            ' * UAS Homepage CSS\n' +
             ' * <%= pkg.url %>\n' +
             ' * @author <%= pkg.author %>\n' +
-            ' * @version <%= pkg.version %>\n' +
-            ' * Copyright <%= pkg.copyright %>. <%= pkg.license %> licensed.\n' +
+            ' * @version <%= pkg.version %>, compiled ' + (new Date()).toUTCString() + '\n' +
+            ' * Copyright <%= pkg.copyright %>. For licensing information, see <%= pkg.repository.license %>.\n' +
             ' */\n'
         ,
         usebanner: {
             dist: {
                 options: {
+                    replace: true,
                     position: 'top',
                     banner: '<%= banner %>'
+                },
+                files: {
+                    src: [ '<%= project.basedir %>/dist/css/*.css' ]
                 }
             },
-            files: {
-                src: [ '<%= project.dist.css/*.css %>' ]
-            }
-        }
+        },
         /**
         * Sass
         */
@@ -130,9 +138,12 @@ module.exports = function(grunt) {
         postcss: {
             options: {
                 processors: [
-                    require('pixrem')(), // add fallbacks for rem units
-                    require('autoprefixer')({browsers: 'last 3 versions'}), // add vendor prefixes
-                    require('cssnano')() // minify the result
+                    // add fallbacks for rem units
+                    require('pixrem')(),
+                    // add vendor prefixes - list defined in package.json variable browserslist
+                    require('autoprefixer')(),
+                    // minify the result
+                    require('cssnano')()
                 ]
             },
             dist: {
@@ -176,6 +187,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-postcss');
     grunt.loadNpmTasks('grunt-contrib-connect');
+    grunt.loadNpmTasks('grunt-banner');
 
     grunt.registerTask('printConfig', function() {
         grunt.log.writeln(JSON.stringify(grunt.config(), null, 2));
@@ -189,6 +201,6 @@ module.exports = function(grunt) {
         'connect', 'watch'
     ]);
     grunt.registerTask('compile', [
-        'sass:dev', 'sass:dist', 'postcss:dist'
+        'sass:dev', 'sass:dist', 'postcss:dist', 'usebanner:dist'
     ]);
 }

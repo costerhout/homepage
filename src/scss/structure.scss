@@ -1,10 +1,10 @@
 @import 'partials/base';
 
 html {
-       overflow-y: scroll;
-       /* Used to anchor the footer on the bottom of the viewport */
-       box-sizing: border-box;
-       height: 100%;
+    overflow-y: scroll;
+    /* Used to anchor the footer on the bottom of the viewport */
+    box-sizing: border-box;
+    height: 100%;
 }
 
 body {
@@ -17,7 +17,6 @@ body {
     box-sizing: border-box;
     background-color: #fff;
 }
-
 /*=header*/
 body > header {
     background-image: none;
@@ -36,7 +35,6 @@ body > footer {
     display: block;
     padding: 3em 4em;
     margin: 0 auto;
-
     /* Used to anchor the footer on the bottom of the viewport */
     position: absolute;
     left: 0;
@@ -49,10 +47,10 @@ footer h2 {
     color: $color-bright-yellow;
 }
 
-footer a:link,
-footer a:visited,
 footer a:active,
-footer a:hover {
+footer a:hover,
+footer a:link,
+footer a:visited {
     color: $color-corn-flower;
     text-decoration: underline;
 }
@@ -68,14 +66,14 @@ footer a:hover {
     background-color: white;
     */
     background-color: white;
-    background-image:linear-gradient(#e3e3e3, #fff);
+    background-image: linear-gradient(#e3e3e3, #fff);
     margin: 0 auto;
     padding: 0;
 }
 
 #main div.container {
     background-color: #FFF;
-    padding:0 3px;
+    padding: 0 3px;
 }
 
 #main-menu ul.nav {
@@ -84,7 +82,7 @@ footer a:hover {
 
 #main-menu .navbar-inner {
     /* 1x1 transparent gif for older browsers, cough cough IE */
-    background-image:url(data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==);
+    background-image: url("data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==");
     background-color: transparent;
     border: none;
 }
@@ -100,8 +98,8 @@ footer a:hover {
     border-radius: 0;
 }
 
-#main-menu .open > .dropdown-menu:before,
-#main-menu .open > .dropdown-menu:after {
+#main-menu .open > .dropdown-menu:after,
+#main-menu .open > .dropdown-menu:before {
     content: none;
 }
 
@@ -120,10 +118,10 @@ footer a:hover {
 }
 
 #main-menu .nav > li > a,
-#main-menu .nav > li > a:link,
-#main-menu .nav > li > a:visited,
+#main-menu .nav > li > a:active,
 #main-menu .nav > li > a:hover,
-#main-menu .nav > li > a:active {
+#main-menu .nav > li > a:link,
+#main-menu .nav > li > a:visited {
     color: #fefefe;
     text-shadow: none;
     padding: 0 8px 8px;
@@ -136,7 +134,6 @@ footer a:hover {
 #main-menu .nav li.dropdown.open > .dropdown-toggle {
     background-color: #036;
 }
-
 /*form in menu descriptor goes here*/
 #main-menu .dropdown-menu li.search {
     margin: 0 1em;
@@ -160,14 +157,14 @@ footer a:hover {
 }
 
 #main-menu #cse-search-box {
-    margin: 0 1rem 0;
+    margin: 0 1rem;
     position: absolute;
     right: 0;
     bottom: 8px;
 }
 
-#main-menu #cse-search-box input,
-#main-menu #cse-search-box .input-prepend > .add-on {
+#main-menu #cse-search-box .input-prepend > .add-on,
+#main-menu #cse-search-box input {
     /*border-color: #7b81ab;*/
     border-color: rgb(116,167,58);
     border-width: 2.5px;
@@ -240,7 +237,6 @@ footer a:hover {
 .social-media-links .list-icons img {
     max-height: 20px;
 }
-
 @media screen and (min-width: $screen-sm-min) {
     body > header .navbar-search {
         float: none;
@@ -248,11 +244,9 @@ footer a:hover {
         padding: 0;
         margin-top: 25px;
     }
-
     /*header {
         min-height: 100px;
     }*/
-
     #logo-desktop {
         min-height: 116px;
     }
@@ -263,13 +257,11 @@ footer a:hover {
         min-height: 46px;
     }
 }
-
 @media screen and (min-width: $screen-md-min) {
     #main div.container {
         padding: 0;
     }
 }
-
 @media screen and (max-width: $screen-sm-max) and (min-width: $screen-sm-min) {
     #main-menu .nav > li > a {
         font-size: 1rem;
@@ -279,63 +271,66 @@ footer a:hover {
         display: none;
     }
 }
-
 /*The icon for opening the secondary navigation*/
 div#mobileHeader {
-    display:none;
-    position:relative;
+    display: none;
+    position: relative;
 }
 
 a#PanelControl {
-    position:static;
-    display:block;
-    margin:0;
-    font-size:inherit;
-    margin-top:3px;
-    z-index:1000;
+    position: static;
+    display: block;
+    margin: 0;
+    font-size: inherit;
+    margin-top: 3px;
+    z-index: 1000;
 }
 
-#col_1{
+#col_1 {
     background-color: #fff;
-    margin-left:0;
-    border:1 px solid #ccc;
-    border-top:none;
-    overflow:hidden;
-    position:relative;
-}
-.row-fluid #col_1 {
-    min-height:0!important;
+    margin-left: 0;
+    border: 1 px solid #ccc;
+    border-top: none;
+    overflow: hidden;
+    position: relative;
 }
 
-#col_1 fieldset{
-    margin:15px 5px;
-    padding:5px;
-    border:1px solid #fff;
+.row-fluid #col_1 {
+    min-height: 0!important;
+}
+
+#col_1 fieldset {
+    margin: 15px 5px;
+    padding: 5px;
+    border: 1px solid #fff;
     border-radius: 3px;
 }
 
-#col_3 .section{
-    padding:0 5px;
+#col_3 .section {
+    padding: 0 5px;
 }
 
-#col_3 .section ul{
-    list-style:none;
+#col_3 .section ul {
+    list-style: none;
 }
-#col_3 .section ul,#col_3 .section li{
-    margin-left:5px;
+
+#col_3 .section li,
+#col_3 .section ul {
+    margin-left: 5px;
 }
-#col_3 .section p{
-    padding-right:5px;
+
+#col_3 .section p {
+    padding-right: 5px;
 }
 
 .container {
     width: 100%;
     max-width: 980px;
 }
+
 .container-fluid {
     padding: 0;
 }
-
 /*=breadcrumb*/
 .breadcrumb {
     background-color: transparent;
@@ -345,34 +340,33 @@ a#PanelControl {
 }
 
 .breadcrumb li.home {
-    font-size:20px;
-    display:block;
-    padding-bottom:5px;
-    font-family:"Times New Roman", Times, serif;
-    font-weight:bold;
+    font-size: 20px;
+    display: block;
+    padding-bottom: 5px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
 }
 
 .breadcrumb li.active {
-    font-weight:bold;
-    color:#666;
-    text-shadow:none;
-    padding-bottom:10px;
+    font-weight: bold;
+    color: #666;
+    text-shadow: none;
+    padding-bottom: 10px;
     border-bottom: none;
 }
 
-.breadcrumb li.active h1.lead{
-    font-size:24px;
+.breadcrumb li.active h1.lead {
+    font-size: 24px;
     line-height: 20px;
     border-bottom: none;
     margin-bottom: 10px;
 }
-
 /* =CMS default classes ----------------------------------- */
 .boxed {
-    margin:0;
-    padding:5px;
-    text-align:justify;
-    border:thin solid #999999;
+    margin: 0;
+    padding: 5px;
+    text-align: justify;
+    border: thin solid #999999;
 }
 
 .red {
@@ -380,159 +374,151 @@ a#PanelControl {
 }
 
 a.external {
-    background-image:url(http://www.uas.alaska.edu/styles/images/icons/external.png);
+    background-image: url("http://www.uas.alaska.edu/styles/images/icons/external.png");
     background-position: right;
-    background-repeat:no-repeat;
-    padding-right:15px;
+    background-repeat: no-repeat;
+    padding-right: 15px;
 }
 
 a.pdf {
-    background-image:url(http://www.uas.alaska.edu/styles/images/icons/pdf.gif);
+    background-image: url("http://www.uas.alaska.edu/styles/images/icons/pdf.gif");
     background-position: right;
-    background-repeat:no-repeat;
-    padding-right:15px;
+    background-repeat: no-repeat;
+    padding-right: 15px;
 }
 
 a.map {
-    background-image:url(http://www.uas.alaska.edu/styles/images/icons/compass.png);
+    background-image: url("http://www.uas.alaska.edu/styles/images/icons/compass.png");
     background-position: right;
-    background-repeat:no-repeat;
-    padding-right:20px;
+    background-repeat: no-repeat;
+    padding-right: 20px;
 }
 
 a.movie {
-    background-image:url(http://www.uas.alaska.edu/styles/images/icons/movie.gif);
+    background-image: url("http://www.uas.alaska.edu/styles/images/icons/movie.gif");
     background-position: right;
-    background-repeat:no-repeat;
-    padding-right:20px;
+    background-repeat: no-repeat;
+    padding-right: 20px;
 }
 
 .floatRight {
-    float:right;
-    margin:15px 0 15px 15px;
-    }
+    float: right;
+    margin: 15px 0 15px 15px;
+}
 
 .floatLeft {
-    float:left;
-    margin:15px 15px 15px 0;
+    float: left;
+    margin: 15px 15px 15px 0;
 }
 
 .imageFloatRight {
-    background-color:#ccc;
-    border:thin solid #e4e4e4;
-    padding:5px;
-    float:right;
-    margin:15px 0 15px 15px;
-    -moz-border-radius-topleft: 5px;
-    -webkit-border-top-left-radius: 5px;
-    -moz-border-radius-topright: 5px;
-    -webkit-border-top-right-radius: 5px;
-    -moz-border-radius-bottomleft: 5px;
-    -webkit-border-bottom-left-radius: 5px;
-    -moz-border-radius-bottomright: 5px;
-    -webkit-border-bottom-right-radius: 5px;
+    background-color: #ccc;
+    border: thin solid #e4e4e4;
+    padding: 5px;
+    float: right;
+    margin: 15px 0 15px 15px;
     border-radius: 5px;
 }
 
 .imageFloatLeft {
-    background-color:#ccc;
-    border:thin solid #e4e4e4;
-    padding:5px;
-    float:left;
-    margin:15px 15px 15px 0;
-    -moz-border-radius-topleft: 5px;
-    -webkit-border-top-left-radius: 5px;
-    -moz-border-radius-topright: 5px;
-    -webkit-border-top-right-radius: 5px;
-    -moz-border-radius-bottomleft: 5px;
-    -webkit-border-bottom-left-radius: 5px;
-    -moz-border-radius-bottomright: 5px;
-    -webkit-border-bottom-right-radius: 5px;
+    background-color: #ccc;
+    border: thin solid #e4e4e4;
+    padding: 5px;
+    float: left;
+    margin: 15px 15px 15px 0;
     border-radius: 5px;
 }
 
 .imageBorder {
-    border:thin solid #cccccc;
-    padding:5px;
-    margin:15px;
+    border: thin solid #cccccc;
+    padding: 5px;
+    margin: 15px;
 }
 
 .boxedFloatRight {
-    float:right;
-    margin:0 0 15px 15px;
-    padding:5px;
-    text-align:justify;
-    border:thin solid #999999;
+    float: right;
+    margin: 0 0 15px 15px;
+    padding: 5px;
+    text-align: justify;
+    border: thin solid #999999;
 }
 
 .boxedFloatLeft {
-    float:left;
-    margin:0 15px 15px 0px;
-    padding:5px;
-    text-align:justify;
-    border:thin solid #999999;
+    float: left;
+    margin: 0 15px 15px 0;
+    padding: 5px;
+    text-align: justify;
+    border: thin solid #999999;
 }
 
-ul.listPlain, .listPlain li  {
-    list-style:none;
-    margin-left:0;
+.listPlain li,
+ul.listPlain {
+    list-style: none;
+    margin-left: 0;
 }
 
-li.listPlain  {
-    list-style:none;
+li.listPlain {
+    list-style: none;
 }
-
 /* =CMS legacy classes ----------------------------------- */
-.clearit{
-    clear:both;
+.clearit {
+    clear: both;
 }
 
-.contentby, #main .contentby, #main p.contentby {
+#main .contentby,
+#main p.contentby,
+.contentby {
     text-align: right;
     margin: 30px 10px 10px 0;
 }
 
 li.folder {
-    list-style-image:url(http://www.uas.alaska.edu/images/icons/folder.jpg);
-}
-li.page {
-    list-style-image:url(http://www.uas.alaska.edu/images/icons/page.jpg);
-}
-li.pdf {
-    list-style-image:url(http://www.uas.alaska.edu/images/icons/pdf.png);
-}
-li.word {
-    list-style-image:url(http://www.uas.alaska.edu/images/icons/word.png);
-}
-li.img {
-    list-style-image:url(http://www.uas.alaska.edu/images/icons/image.png);
-}
-li.link {
-    list-style-image:url(http://www.uas.alaska.edu/images/icons/link.gif);
-}
-li.excel {
-    list-style-image:url(http://www.uas.alaska.edu/images/icons/excel.gif);
-}
-li.flash {
-    list-style-image:url(http://www.uas.alaska.edu/images/icons/flash.gif);
-}
-li.movie {
-    list-style-image:url(http://www.uas.alaska.edu/styles/images/icons/movie.gif);
+    list-style-image: url("http://www.uas.alaska.edu/images/icons/folder.jpg");
 }
 
+li.page {
+    list-style-image: url("http://www.uas.alaska.edu/images/icons/page.jpg");
+}
+
+li.pdf {
+    list-style-image: url("http://www.uas.alaska.edu/images/icons/pdf.png");
+}
+
+li.word {
+    list-style-image: url("http://www.uas.alaska.edu/images/icons/word.png");
+}
+
+li.img {
+    list-style-image: url("http://www.uas.alaska.edu/images/icons/image.png");
+}
+
+li.link {
+    list-style-image: url("http://www.uas.alaska.edu/images/icons/link.gif");
+}
+
+li.excel {
+    list-style-image: url("http://www.uas.alaska.edu/images/icons/excel.gif");
+}
+
+li.flash {
+    list-style-image: url("http://www.uas.alaska.edu/images/icons/flash.gif");
+}
+
+li.movie {
+    list-style-image: url("http://www.uas.alaska.edu/styles/images/icons/movie.gif");
+}
 /* fixes ol numbers being cut off from left edge of content*/
 .tab-content > .tab-pane {
-    padding:0 10px;
+    padding: 0 10px;
 }
 /* bootsrap v 3.0 for 'jump to content' link */
-
 .sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-  border: 0;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    border: 0;
 }

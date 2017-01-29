@@ -16,16 +16,28 @@ label.hide {
     text-indent: -5000;
 }
 
-h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small {
     font-weight: normal;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-weight: normal;
     text-transform: none;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'Varela Round', sans-serif;
 }
 
@@ -69,7 +81,8 @@ h6 {
     font-weight: normal;
 }
 
-.noticeBox ul, .noticeBox li {
+.noticeBox li,
+.noticeBox ul {
     list-style: none;
     margin-left: 0;
 }
@@ -83,7 +96,8 @@ h6 {
     padding-top: 20px;
 }
 
-#banner, #banner h1 {
+#banner,
+#banner h1 {
     background-color: #365c9d!important;
     color: #fff!important;
 }
@@ -94,7 +108,7 @@ nav header {
 }
 
 #col_1 {
-    background-image: url(http://www.uas.alaska.edu/styles/images/campuses/ltnav-regional.jpg);
+    background-image: url("http://www.uas.alaska.edu/styles/images/campuses/ltnav-regional.jpg");
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: 100% auto;
@@ -153,11 +167,6 @@ nav header {
 .nav-tabs li a {
     background-color: #fff;
     font-family: 'Varela Round', sans-serif;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#cddbe8));
-    background-image: -webkit-linear-gradient(#ffffff, #cddbe8);
-    background-image: -moz-linear-gradient(#ffffff, #cddbe8);
-    background-image: -ms-linear-gradient(#ffffff, #cddbe8);
-    background-image: -o-linear-gradient(#ffffff, #cddbe8);
     background-image: linear-gradient(#ffffff, #cddbe8);
     border-color: #365c9d;
     border-bottom-color: #ddd;
@@ -171,36 +180,25 @@ nav header {
     display: block;
     padding: 8px 15px;
     background-color: #cddbe8;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#cddbe8));
-    background-image: -webkit-linear-gradient(#ffffff, #cddbe8);
-    background-image: -moz-linear-gradient(#ffffff, #cddbe8);
-    background-image: -ms-linear-gradient(#ffffff, #cddbe8);
-    background-image: -o-linear-gradient(#ffffff, #cddbe8);
     background-image: linear-gradient(#ffffff, #cddbe8);
 }
 
 .form-actions {
     background-color: #cddbe8;
     border: none;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
     border-radius: 3px;
 }
 
 .well {
     background-color: #cddbe8;
     background-color: #f5f5f5;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#cddbe8));
-    background-image: -webkit-linear-gradient(#ffffff, #cddbe8);
-    background-image: -moz-linear-gradient(#ffffff, #cddbe8);
-    background-image: -ms-linear-gradient(#ffffff, #cddbe8);
-    background-image: -o-linear-gradient(#ffffff, #cddbe8);
     background-image: linear-gradient(#ffffff, #cddbe8);
     border: none;
 }
 
-.imageFloatRight, .imageFloatLeft {
-    background-color: #365c9d
+.imageFloatLeft,
+.imageFloatRight {
+    background-color: #365c9d;
 }
 
 .calendarBanner {
@@ -211,23 +209,14 @@ nav header {
     text-align: center;
     margin-left: 5px;
     font-family: 'Times New Roman', Times, serif;
-    -moz-box-shadow: 2px 2px 2px grey;
-    -webkit-box-shadow: 2px 2px 2px grey;
     box-shadow: 2px 2px 2px grey;
     border: 1px solid #ccc;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
     border-radius: 3px;
 }
 
 .calMonth {
     border: medium none;
     color: #333;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#365c9d), to(#cddbe8));
-    background-image: -webkit-linear-gradient(#365c9d, #cddbe8);
-    background-image: -moz-linear-gradient(#365c9d, #cddbe8);
-    background-image: -ms-linear-gradient(#365c9d, #cddbe8);
-    background-image: -o-linear-gradient(#365c9d, #cddbe8);
     background-image: linear-gradient(#365c9d, #cddbe8);
     font-size: 16px;
     font-weight: bold;
@@ -249,7 +238,7 @@ nav header {
     text-align: center;
     z-index: 2;
     display: block;
-    padding: 13px 5px 16px 5px;
+    padding: 13px 5px 16px;
     border-top: 1px solid #999;
 }
 
@@ -268,8 +257,6 @@ nav #form1 input.search-query {
     display: block;
     float: none;
     width: 100%;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
     border-radius: 0;
 }
 
@@ -279,47 +266,32 @@ nav #form1 input.search-query {
 }
 
 .btn-group-vertical .btn:first-child {
-    -webkit-border-radius: 4px 4px 0 0;
-    -moz-border-radius: 4px 4px 0 0;
     border-radius: 4px 4px 0 0;
 }
 
 .btn-group-vertical .btn:last-child {
-    -webkit-border-radius: 0 0 4px 4px;
-    -moz-border-radius: 0 0 4px 4px;
     border-radius: 0 0 4px 4px;
 }
 
 .btn-group-vertical .btn-large:first-child {
-    -webkit-border-radius: 6px 6px 0 0;
-    -moz-border-radius: 6px 6px 0 0;
     border-radius: 6px 6px 0 0;
 }
 
 .btn-group-vertical .btn-large:last-child {
-    -webkit-border-radius: 0 0 6px 6px;
-    -moz-border-radius: 0 0 6px 6px;
     border-radius: 0 0 6px 6px;
 }
-
-
 /* Sidenav for Docs
 -------------------------------------------------- */
-
 .bs-docs-sidenav {
     width: 88px;
     margin: 30px 0 0;
     padding: 0;
     background-color: #fff;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
     border-radius: 6px;
-    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, .065);
-    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, .065);
     box-shadow: 0 1px 4px rgba(0, 0, 0, .065);
 }
 
-.bs-docs-sidenav>li>a {
+.bs-docs-sidenav > li > a {
     display: block;
     *width: 190px;
     margin: 0 0 -1px;
@@ -327,49 +299,41 @@ nav #form1 input.search-query {
     border: 1px solid #e5e5e5;
 }
 
-.bs-docs-sidenav>li:first-child>a {
-    -webkit-border-radius: 6px 6px 0 0;
-    -moz-border-radius: 6px 6px 0 0;
+.bs-docs-sidenav > li:first-child > a {
     border-radius: 6px 6px 0 0;
 }
 
-.bs-docs-sidenav>li:last-child>a {
-    -webkit-border-radius: 0 0 6px 6px;
-    -moz-border-radius: 0 0 6px 6px;
+.bs-docs-sidenav > li:last-child > a {
     border-radius: 0 0 6px 6px;
 }
 
-.bs-docs-sidenav>.active>a {
+.bs-docs-sidenav > .active > a {
     position: relative;
     z-index: 2;
     padding: 9px 15px;
     border: 0;
     text-shadow: 0 1px 0 rgba(0, 0, 0, .15);
-    -webkit-box-shadow: inset 1px 0 0 rgba(0, 0, 0, .1), inset -1px 0 0 rgba(0, 0, 0, .1);
-    -moz-box-shadow: inset 1px 0 0 rgba(0, 0, 0, .1), inset -1px 0 0 rgba(0, 0, 0, .1);
     box-shadow: inset 1px 0 0 rgba(0, 0, 0, .1), inset -1px 0 0 rgba(0, 0, 0, .1);
 }
-
-
 /* Chevrons */
-
 .bs-docs-sidenav .icon-chevron-right {
     float: right;
     margin-top: 2px;
     margin-right: -6px;
-    opacity: .25;
+    opacity: 0.25;
 }
 
-.bs-docs-sidenav>li>a:hover {
+.bs-docs-sidenav > li > a:hover {
     background-color: #f5f5f5;
 }
 
 .bs-docs-sidenav a:hover .icon-chevron-right {
-    opacity: .5;
+    opacity: 0.5;
 }
 
-.bs-docs-sidenav .active .icon-chevron-right, .bs-docs-sidenav .active a:hover .icon-chevron-right {
-    background-image: url(../img/glyphicons-halflings-white.png);
+.bs-docs-sidenav .active .icon-chevron-right,
+.bs-docs-sidenav .active a:hover .icon-chevron-right {
+    background-image: url("../img/glyphicons-halflings-white.png");
     opacity: 1;
 }
 
@@ -389,27 +353,20 @@ table h3 {
 }
 
 .btn-smallest {
-    padding: 0px 5px;
+    padding: 0 5px;
     font-size: 10px;
 }
-
-
 /*.breadcrumb h1{
     font-size:18px!important;
     line-height:20px;
     display:inline;
 }*/
-
 .btn-navbar .icon-bar {
     display: block;
     width: 18px;
     height: 2px;
     background-color: #f5f5f5;
-    -webkit-border-radius: 1px;
-    -moz-border-radius: 1px;
     border-radius: 1px;
-    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
-    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
     box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
 }
 
@@ -418,30 +375,29 @@ table h3 {
 }
 
 .wavey {
-    background-image: url(http://www.uas.alaska.edu/styles/images/backgrounds/wispy_1600x132.jpg);
+    background-image: url("http://www.uas.alaska.edu/styles/images/backgrounds/wispy_1600x132.jpg");
     background-repeat: repeat-x;
     background-position: top left;
     background-size: cover;
     color: #fff;
 }
 
-div.striped>div:nth-child(odd) {
+div.striped > div:nth-child(odd) {
     background-color: #F9F9F9;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
     border-radius: 5px;
 }
 
-div.striped>div:nth-child(even) {
+div.striped > div:nth-child(even) {
     background-color: #fff;
 }
 
-.calendar_row, .faq_row {
+.calendar_row,
+.faq_row {
     padding: 12px;
 }
 
 .vevent div.summary a:hover {
-    csor: pointer;
+    cursor: pointer;
 }
 
 .vcard p.title {
@@ -449,15 +405,7 @@ div.striped>div:nth-child(even) {
 }
 
 .vcard img.photo {
-    margin: 0 auto 15px auto;
-    -moz-border-radius-topleft: 5px;
-    -webkit-border-top-left-radius: 5px;
-    -moz-border-radius-topright: 5px;
-    -webkit-border-top-right-radius: 5px;
-    -moz-border-radius-bottomleft: 5px;
-    -webkit-border-bottom-left-radius: 5px;
-    -moz-border-radius-bottomright: 5px;
-    -webkit-border-bottom-right-radius: 5px;
+    margin: 0 auto 15px;
 }
 
 .modal {
@@ -468,27 +416,31 @@ tr.tableHeadings {
     color: #FFF;
 }
 
-[class^="icon-"], [class*=" icon-"] {
+[class*=" icon-"],
+[class^="icon-"] {
     background-image: url("http://www.uas.alaska.edu/a_assets/style/img/glyphicons-halflings.png");
 }
-
-
 /* White icons with optional class, or on hover/active states of certain elements */
-
-.icon-white, .nav-pills>.active>a>[class^="icon-"], .nav-pills>.active>a>[class*=" icon-"], .nav-list>.active>a>[class^="icon-"], .nav-list>.active>a>[class*=" icon-"], .navbar-inverse .nav>.active>a>[class^="icon-"], .navbar-inverse .nav>.active>a>[class*=" icon-"], .dropdown-menu>li>a:hover>[class^="icon-"], .dropdown-menu>li>a:hover>[class*=" icon-"], .dropdown-menu>.active>a>[class^="icon-"], .dropdown-menu>.active>a>[class*=" icon-"], .dropdown-submenu:hover>a>[class^="icon-"], .dropdown-submenu:hover>a>[class*=" icon-"] {
+.dropdown-menu > .active > a > [class*=" icon-"],
+.dropdown-menu > .active > a > [class^="icon-"],
+.dropdown-menu > li > a:hover > [class*=" icon-"],
+.dropdown-menu > li > a:hover > [class^="icon-"],
+.dropdown-submenu:hover > a > [class*=" icon-"],
+.dropdown-submenu:hover > a > [class^="icon-"],
+.icon-white,
+.nav-list > .active > a > [class*=" icon-"],
+.nav-list > .active > a > [class^="icon-"],
+.nav-pills > .active > a > [class*=" icon-"],
+.nav-pills > .active > a > [class^="icon-"],
+.navbar-inverse .nav > .active > a > [class*=" icon-"],
+.navbar-inverse .nav > .active > a > [class^="icon-"] {
     background-image: url("http://www.uas.alaska.edu/a_assets/style/img/glyphicons-halflings-white.png");
 }
-
-
 /* reset z - original 1050 - PMM is 3010 so this mus be more */
-
 .modal {
     z-index: 3020;
 }
-
-
 /* These classes added for ease of setting text spacing around images as needed */
-
 img.pull-right {
     margin-left: 10px;
 }
@@ -496,10 +448,7 @@ img.pull-right {
 img.pull-left {
     margin-right: 10px;
 }
-
-
 /* table classes for more colorful rows */
-
 table.green-rows tr:nth-child(even) {
     background: #B2F7B4;
 }
@@ -517,10 +466,7 @@ table.blue-rows tr:nth-child(even) {
     line-height: 2;
     font-weight: bold;
 }
-
-
 /* Provide captions for images */
-
 .thumbnail.with-caption {
     display: inline-block;
     background: #f5f5f5;
@@ -543,33 +489,21 @@ table.blue-rows tr:nth-child(even) {
     display: inline-block;
     color: #999;
 }
-
-
 /* Center a block - NOTE - this gets supersceded in Bootstrap 3x by class center-block */
-
 .align-center {
     margin-left: auto;
     margin-right: auto;
     display: block;
 }
-
-
 /* Center a block both horizontally and vertically */
-
 .align-middle {
     position: absolute;
     margin: 0;
     top: 50%;
     left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
-
-
 /* MyUAS Ribbon */
-
 #uaso-trunk a img {
     border: 1px solid #fff;
 }
@@ -615,10 +549,11 @@ div.myuas-icon a:hover {
     text-decoration: none;
 }
 
-ul.dropdown-menu div.trunk div.myuas-icon>a:visited, ul.dropdown-menu div.trunk div.myuas-icon>a:active, ul.dropdown-menu div.trunk div.myuas-icon>a:link {
+ul.dropdown-menu div.trunk div.myuas-icon > a:active,
+ul.dropdown-menu div.trunk div.myuas-icon > a:link,
+ul.dropdown-menu div.trunk div.myuas-icon > a:visited {
     font-size: 10px;
     padding: 5px;
-    padding-bottom: 5px;
     border-radius: 5px;
     text-align: center;
     border: 1px solid #fff;
@@ -630,7 +565,7 @@ ul.dropdown-menu div.trunk div.myuas-icon>a:visited, ul.dropdown-menu div.trunk 
     white-space: nowrap;
 }
 
-ul.dropdown-menu div.trunk div.myuas-icon>a:hover {
+ul.dropdown-menu div.trunk div.myuas-icon > a:hover {
     border: 1px solid #999;
 }
 
@@ -639,17 +574,11 @@ ul.dropdown-menu div.trunk div.myuas-icon>a:hover {
     font-size: 14px;
     padding-left: 20px;
 }
-
-
 /* Added to properly size popover ul li in Firefox */
-
-ul.unstyled>li {
+ul.unstyled > li {
     line-height: 2em;
 }
-
-
 /* Image overlay effect */
-
 .video-thumbnail {
     position: relative;
     width: 100%;
@@ -674,7 +603,7 @@ ul.unstyled>li {
     text-indent: -1em;
 }
 
-dl:not(.dl-horizontal)>dt {
+dl:not(.dl-horizontal) > dt {
     margin-top: 1em;
     line-height: 1.2;
 }
@@ -691,19 +620,19 @@ dl:not(.dl-horizontal)>dt {
     margin-left: 3rem;
 }
 
-.list-largeheader>li {
+.list-largeheader > li {
     margin-top: 2rem;
 }
 
-.list-largeheader>li>p {
+.list-largeheader > li > p {
     font-size: initial;
 }
 
-.list-normal>li {
+.list-normal > li {
     font-size: 1rem;
 }
 
-.list-spacious>li {
+.list-spacious > li {
     margin: 2rem 0;
 }
 
@@ -722,43 +651,31 @@ p.subtitle {
 .left-sidebar-social-icons p {
     margin: 0.5em 0;
 }
-
-
 /*
 Modify form look and feel a bit for fieldsets and nested fieldsets (radio
 groups and checkboxes)
 */
-
-fieldset fieldset>legend {
+fieldset fieldset > legend {
     font-size: 14px;
 }
 
 fieldset {
     margin-bottom: 1em;
 }
-
-
 /* Make the textarea elements wider by default and responsive in width */
-
 textarea {
     height: 10em;
     width: 70%;
 }
-
-
 /* Additional styling for button groups */
-
 .btn-group {
     margin: 10px 0;
 }
 
-.btn-group>a.btn {
+.btn-group > a.btn {
     padding: 3px 15px;
 }
-
-
 /* Sidebar address widget definitions */
-
 #col_1 .sidebar-address {
     padding-left: 1em;
 }

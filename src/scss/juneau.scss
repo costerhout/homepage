@@ -13,121 +13,94 @@ Sitka
 Ketchikan:
 #793f61
 223,210,221 = dfd2dd*/
-
 .campus_dark {
-	color:#a9bb46;
+	color: #a9bb46;
 }
 
 .campus_light {
-	background-color:#e9efd5;
+	background-color: #e9efd5;
 }
 
-h1, h3{
+h1,
+h3 {}
 
-}
-
-h2, h4{
-	color:#a9bb46;
+h2,
+h4 {
+	color: #a9bb46;
 }
 
 nav .p7TMM10 ul ul a.trig_open {
-	background-image:none;
-	background-color:#a9bb46;
+	background-image: none;
+	background-color: #a9bb46;
 }
-nav h2 {
-	color:#365c9d;
-}
-#col_1{
-	background-image: url(http://www.uas.alaska.edu/a_assets/images/campuses/ltnav-jun.png);
-	background-position:bottom center;
-	background-repeat:no-repeat;
-	background-size:100% auto;
-	padding-bottom:200px;
 
+nav h2 {
+	color: #365c9d;
 }
+
+#col_1 {
+	background-image: url("http://www.uas.alaska.edu/a_assets/images/campuses/ltnav-jun.png");
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	padding-bottom: 200px;
+}
+
 #col_1 nav {
-	background-color:#fff;
-	background-image:-webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#e9efd5));
-	background-image:-webkit-linear-gradient(#ffffff, #e9efd5);
-	background-image:-moz-linear-gradient(#ffffff, #e9efd5);
-	background-image:-ms-linear-gradient(#ffffff, #e9efd5);
-	background-image:-o-linear-gradient(#ffffff, #e9efd5);
-	background-image:linear-gradient(#ffffff, #e9efd5);
+	background-color: #fff;
+	background-image: linear-gradient(#ffffff, #e9efd5);
 }
 
 #col_1 nav header {
-	background-image:none;
-	display:block;
-	margin:0;
-	padding:0;
-
+	background-image: none;
+	display: block;
+	margin: 0;
+	padding: 0;
 }
+
 #col_1 nav header strong {
 	display: none;
 }
 
-#col_1 nav header p span{
-	position:relative;
-	top:-5px;
+#col_1 nav header p span {
+	position: relative;
+	top: -5px;
 }
 
 .nav-tabs li a {
-	background-color:#fff ;
-	background-image:-webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#e9efd5 ));
-	background-image:-webkit-linear-gradient(#ffffff, #e9efd5 );
-	background-image:-moz-linear-gradient(#ffffff, #e9efd5 );
-	background-image:-ms-linear-gradient(#ffffff, #e9efd5 );
-	background-image:-o-linear-gradient(#ffffff, #e9efd5 );
-	background-image:linear-gradient(#ffffff, #e9efd5 );
-	border-color:#a9bb46;
-	border-bottom-color:#ddd;
+	background-color: #fff;
+	background-image: linear-gradient(#ffffff, #e9efd5 );
+	border-color: #a9bb46;
+	border-bottom-color: #ddd;
 }
 
 .nav-tabs li.active a {
-	background-image:none;
+	background-image: none;
 }
 
 .accordion-heading .accordion-toggle {
-	background-color:#e9efd5;
-	background-image:-webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#e9efd5));
-	background-image:-webkit-linear-gradient(#ffffff, #e9efd5);
-	background-image:-moz-linear-gradient(#ffffff, #e9efd5);
-	background-image:-ms-linear-gradient(#ffffff, #e9efd5);
-	background-image:-o-linear-gradient(#ffffff, #e9efd5);
-	background-image:linear-gradient(#ffffff, #e9efd5);
+	background-color: #e9efd5;
+	background-image: linear-gradient(#ffffff, #e9efd5);
 }
+
 .form-actions {
-	background-color:#e9efd5;
+	background-color: #e9efd5;
 }
+
 .well {
-	background-color:#e9efd5;
-	background-image:-webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#e9efd5));
-	background-image:-webkit-linear-gradient(#ffffff, #e9efd5);
-	background-image:-moz-linear-gradient(#ffffff, #e9efd5);
-	background-image:-ms-linear-gradient(#ffffff, #e9efd5);
-	background-image:-o-linear-gradient(#ffffff, #e9efd5);
-	background-image:linear-gradient(#ffffff, #e9efd5);
+	background-color: #e9efd5;
+	background-image: linear-gradient(#ffffff, #e9efd5);
 }
 
-#main{
-	background-image:-webkit-gradient(linear, left top, left bottom, from(#e9efd5), to(#ffffff));
-	background-image:-webkit-linear-gradient(#e9efd5, #ffffff);
-	background-image:-moz-linear-gradient(#e9efd5, #ffffff);
-	background-image:-ms-linear-gradient(#e9efd5, #ffffff);
-	background-image:-o-linear-gradient(#e9efd5, #ffffff);
-	background-image:linear-gradient(#e9efd5, #ffffff);
+#main {
+	background-image: linear-gradient(#e9efd5, #ffffff);
 }
 
-.imageFloatRight, .imageFloatLeft {
-		background-color:#a9bb46
+.imageFloatLeft,
+.imageFloatRight {
+	background-color: #a9bb46;
 }
-
 
 .calMonth {
-  	background-image:-webkit-gradient(linear, left top, left bottom, from(#a9bb46), to(#e9efd5));
-	background-image:-webkit-linear-gradient(#a9bb46, #e9efd5);
-	background-image:-moz-linear-gradient(#a9bb46, #e9efd5);
-	background-image:-ms-linear-gradient(#a9bb46, #e9efd5);
-	background-image:-o-linear-gradient(#a9bb46, #e9efd5);
-	background-image:linear-gradient(#a9bb46, #e9efd5);
+	background-image: linear-gradient(#a9bb46, #e9efd5);
 }
