@@ -1,5 +1,6 @@
 @import 'partials/base';
 @import "http://fonts.googleapis.com/css?family=Varela+Round";
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
 .well {
     background-color: #fff;
@@ -408,7 +409,9 @@ div.striped > div:nth-child(even) {
     margin: 0 auto 15px;
 }
 
+/* reset z - original 1050 - PMM is 3010 so this mus be more */
 .modal {
+    z-index: 3020;
     -webkit-overflow-scrolling: touch;
 }
 
@@ -436,10 +439,7 @@ tr.tableHeadings {
 .navbar-inverse .nav > .active > a > [class^="icon-"] {
     background-image: url("http://www.uas.alaska.edu/a_assets/style/img/glyphicons-halflings-white.png");
 }
-/* reset z - original 1050 - PMM is 3010 so this mus be more */
-.modal {
-    z-index: 3020;
-}
+
 /* These classes added for ease of setting text spacing around images as needed */
 img.pull-right {
     margin-left: 10px;

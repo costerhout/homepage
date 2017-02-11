@@ -81,9 +81,8 @@ footer a:hover {
 }
 
 #main-menu .navbar-inner {
-    /* 1x1 transparent gif for older browsers, cough cough IE */
-    background-image: url("data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==");
     background-color: transparent;
+    background-image: none;
     border: none;
 }
 

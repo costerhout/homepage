@@ -1,0 +1,20 @@
+// @Author: Colin Osterhout <ctosterhout> based on work from John French <jhfrench>
+// @Date:   2017-01-28T16:13:56-09:00
+// @Email:  ctosterhout@alaska.edu
+// @Project: BERT
+// @Last modified by:   ctosterhout
+// @Last modified time: 2017-01-28T16:41:52-09:00
+// @License: Released under MIT License. Copyright 2016 University of Alaska Southeast.  For more details, see https://opensource.org/licenses/MIT
+
+@import 'partials/base';
+
+#main-menu .navbar-inner {
+    background-color: $color-uas-blue;
+}
+
+#col_1{
+	background-image:none;
+}
+#main {
+	background-color:#e3e3e3;
+}
