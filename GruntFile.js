@@ -41,10 +41,10 @@ module.exports = function (grunt) {
         },
         clean: {
             dev: {
-                src: [ '<%= project.dev %>/*' ]
+                src: [ '<%= project.dev.css %>/*' ]
             },
             dist: {
-                src: [ '<%= project.dist %>/*' ]
+                src: [ '<%= project.dist.css %>/*' ]
             }
         },
         /**
@@ -137,20 +137,30 @@ module.exports = function (grunt) {
         },
         postcss: {
             options: {
-                processors: [
-                    // add fallbacks for rem units
-                    require('pixrem')(),
-                    // add vendor prefixes - list defined in package.json variable browserslist
-                    require('autoprefixer')(),
-                    // minify the result
-                    require('cssnano')()
-                ]
             },
             dist: {
-                src: '<%= project.dist.css %>/**/*.css'
+                src: '<%= project.dist.css %>/**/*.css',
+                options: {
+                    processors: [
+                        // add fallbacks for rem units
+                        require('pixrem')(),
+                        // add vendor prefixes - list defined in package.json variable browserslist
+                        require('autoprefixer')(),
+                        // minify the result
+                        require('cssnano')({ zindex: false} )
+                    ]
+                },
             },
             dev: {
-                src: '<%= project.dev.css %>/**/*.css'
+                src: '<%= project.dev.css %>/**/*.css',
+                options: {
+                    processors: [
+                        // add fallbacks for rem units
+                        require('pixrem')(),
+                        // add vendor prefixes - list defined in package.json variable browserslist
+                        require('autoprefixer')(),
+                    ]
+                },
             }
         },
         connect: {
@@ -187,6 +197,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-postcss');
     grunt.loadNpmTasks('grunt-contrib-connect');
+    grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-banner');
 
     grunt.registerTask('printConfig', function() {
@@ -201,6 +212,6 @@ module.exports = function (grunt) {
         'connect', 'watch'
     ]);
     grunt.registerTask('compile', [
-        'sass:dev', 'sass:dist', 'postcss:dist', 'usebanner:dist'
+        'sass', 'postcss', 'usebanner'
     ]);
 }

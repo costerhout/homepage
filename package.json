@@ -15,7 +15,8 @@
   "browserslist": [
       "> 1%",
       "last 3 versions",
-      "IE 9"
+      "IE 9",
+      "Firefox ESR"
   ],
   "devDependencies": {
     "autoprefixer": "^6.0.3",
