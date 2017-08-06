@@ -67,6 +67,30 @@ nav h2 {
 	top: -5px;
 }
 
+.carousel-control {
+  border-radius: 23px;
+  font-size: 20px;
+  font-weight: normal;
+  height: 30px;
+  left: 0px;
+  line-height: 25px;
+  margin-top: 0px;
+  opacity: 0.5;
+  position: relative;
+  text-align: center;
+  top: 52%;
+  width: 30px;
+}
+
+.carousel-controls {
+  margin-bottom: 3.5em;
+}
+
+.carousel-control.right {
+  left: auto;
+  right: 0px;
+}
+
 .nav-tabs li a {
 	background-color: #fff;
 	background-image: linear-gradient(#ffffff, #e9efd5 );
