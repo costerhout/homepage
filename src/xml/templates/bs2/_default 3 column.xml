@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<system-region name="META-ID"/>
+<meta charset="utf-8"/>
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<system-region name="FAVICON"/>
+<title>
+<system-page-title/>
+| University of Alaska Southeast</title>
+<system-page-meta-description/>
+<system-page-meta-keywords/>
+<system-page-meta-date/>
+<system-region name="TRAFFIC-ANALYSIS-REG"/>
+<system-region name="SCRIPTS0"/>
+<system-region name="SCRIPTS1"/>
+<system-region name="SCRIPTS2"/>
+<system-region name="SCRIPTS3"/>
+<system-region name="STYLE-GLOBAL"/>
+<system-region name="STYLE-CAMPUS"/>
+<system-region name="SKIN"/>
+<system-region name="SKIN1"/>
+
+
+<system-region name="STYLE-GLOBAL2"/>
+<system-region name="SKIN2"/>
+<system-region name="JAVASCRIPT"/>
+<system-region name="JAVASCRIPT1"/>
+<system-region name="JAVASCRIPT2"/>
+<system-region name="STYLE-VERY-LAST"/>
+<system-region name="SKIN3"/>
+</head>
+<body>
+<system-region name="TRAFFIC-ANALYSIS-REG-NOSCRIPT"/>
+<system-region name="HEADER"/>
+<div id="main">
+  <div class="container">
+    <system-region name="NAV-MARKETING"/>
+
+    <div class="row-fluid">
+     <system-region name="MOBILE-HEADER"/>
+      <div class="span3" id="col_1">
+        <div class="panelClosed" id="Panel">
+          <nav>
+            <system-region name="NAV2-HEADER-1"/>
+            <system-region name="NAV2-HEADER-2"/>
+            <system-region name="NAV2-HEADER-3"/>
+            <system-region name="NAV2-A"/>
+            <system-region name="NAV2-B"/>
+            <system-region name="NAV2-C"/>
+            <system-region name="NAV2-D"/>
+          </nav>
+          <system-region name="NAV2-FOOTER-1"/>
+        </div>
+        <!--/Pannel-->
+        <system-region name="NAV2-FOOTER-2"/>
+      </div>
+      <!--/span3-->
+      <div class="span9" id="content">
+                <system-region name="BRANDING-ABOVE-1"/>
+<system-region name="BREAD-CRUMBS"/>
+
+          <system-region name="BRANDING"/>
+          <system-region name="BRANDING-BELOW-1"/>
+
+        <!--/banner-->
+        <div class="row-fluid">
+          <div class="span8" id="col_2">
+            <system-region name="BANNER"/>
+            <system-region name="DEFAULT-ABOVE-3"/>
+            <system-region name="DEFAULT-ABOVE-2"/>
+            <system-region name="DEFAULT-ABOVE-1"/>
+            <system-region name="DEFAULT"/>
+            <system-region name="DEFAULT-BELOW-1"/>
+            <system-region name="DEFAULT-BELOW-2"/>
+            <system-region name="DEFAULT-BELOW-3"/>
+          </div><!--/.span8 #col_2-->
+          <div class="span4" id="col_3">
+            <system-region name="NAV3-A"/>
+            <system-region name="NAV3-B"/>
+            <system-region name="NAV3-C"/>
+            <system-region name="NAV3-D"/>
+          </div><!--/.span4 #col_3-->
+
+          </div><!--/.row-fluid-->
+            <system-region name="SPAN-CONTENT"/>
+        </div><!--/.span9 #content -->
+      </div><!--/.row-fluid-->
+    <div class="clearit"> </div>
+   <system-region name="CONTENT-BY"/>
+    <system-region name="SPAN-BOTTOM"/>
+  </div>
+  <!--/.container--></div>
+<!--/main -->
+<system-region name="JAVASCRIPT-BELOW-CONTENT"/>
+<system-region name="FOOTER"/>
+<system-region name="JAVASCRIPT-BELOW-FOOTER"/>
+<system-region name="JAVASCRIPT-BELOW-FOOTER-1"/>
+<system-region name="JAVASCRIPT-BELOW-FOOTER-2"/>
+<system-region name="JAVASCRIPT-BELOW-FOOTER-3"/>
+<system-region name="TRAFFIC-ANALYSIS-REG-CUSTOM"/>
+</body>
+</html>
