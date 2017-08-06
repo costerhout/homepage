@@ -13,7 +13,7 @@ body {
     position: relative;
     min-height: 100%;
     /* Allow for the footer to be below the viewport at small screen sizes */
-    padding-bottom: 800px;
+    padding-bottom: 930px;
     box-sizing: border-box;
     background-color: #fff;
 }
@@ -155,15 +155,15 @@ footer a:hover {
     border-left: 1px solid #fefefe;
 }
 
-#main-menu #cse-search-box {
+#main-menu .cse-search-box {
     margin: 0 1rem;
     position: absolute;
     right: 0;
     bottom: 8px;
 }
 
-#main-menu #cse-search-box .input-prepend > .add-on,
-#main-menu #cse-search-box input {
+#main-menu .cse-search-box .input-prepend > .add-on,
+#main-menu .cse-search-box input {
     /*border-color: #7b81ab;*/
     border-color: rgb(116,167,58);
     border-width: 2.5px;
@@ -172,13 +172,13 @@ footer a:hover {
     border-radius: 0;
 }
 
-#main-menu #cse-search-box .input-prepend > .add-on {
+#main-menu .cse-search-box .input-prepend > .add-on {
     font-size: 1.1rem;
     background-color: rgb(116,167,58);
     text-shadow: none;
 }
 
-#main-menu #cse-search-box input {
+#main-menu .cse-search-box input {
     color: #e8e7f9;
     background-color: transparent;
     width: 10em;
